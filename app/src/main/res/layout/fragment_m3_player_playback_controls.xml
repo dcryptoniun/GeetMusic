@@ -154,7 +154,7 @@
         app:layout_constraintStart_toEndOf="@+id/playPauseButton"
         app:layout_constraintTop_toTopOf="@+id/playPauseButton" />
 
-    <com.mardous.booming.views.playback.ShuffleButton
+    <com.mardous.geet.views.playback.ShuffleButton
         android:id="@+id/shuffleButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -167,7 +167,7 @@
         app:layout_constraintStart_toEndOf="@id/nextButton"
         app:layout_constraintTop_toTopOf="@+id/nextButton" />
 
-    <com.mardous.booming.views.playback.RepeatButton
+    <com.mardous.geet.views.playback.RepeatButton
         android:id="@+id/repeatButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

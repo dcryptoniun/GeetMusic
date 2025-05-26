@@ -87,14 +87,14 @@
 -keep class com.google.android.material.transition.** { *; }
 
 # Keep player
--keep class com.mardous.booming.fragments.player.base.** { *; }
--keep class com.mardous.booming.fragments.player.styles.** { *; }
+-keep class com.mardous.geet.fragments.player.base.** { *; }
+-keep class com.mardous.geet.fragments.player.styles.** { *; }
 
--keep class com.mardous.booming.model.** { *; }
--keep class com.mardous.booming.database.LyricsEntity { *; }
--keep class com.mardous.booming.http.deezer.model.** { *; }
--keep class com.mardous.booming.http.lastfm.model.** { *; }
--keep class com.mardous.booming.search.SearchFilter { *; }
+-keep class com.mardous.geet.model.** { *; }
+-keep class com.mardous.geet.database.LyricsEntity { *; }
+-keep class com.mardous.geet.http.deezer.model.** { *; }
+-keep class com.mardous.geet.http.lastfm.model.** { *; }
+-keep class com.mardous.geet.search.SearchFilter { *; }
 
 # Gson - required after agp 8 made r8 full mode default
 -keep,allowobfuscation,allowshrinking class com.google.gson.reflect.TypeToken

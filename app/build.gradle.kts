@@ -84,7 +84,7 @@ val currentVersionCode = currentVersion.code
 
 android {
     compileSdk = 36
-    namespace = "com.mardous.booming"
+    namespace = "com.mardous.geet"
 
     defaultConfig {
         minSdk = 26
