@@ -1,0 +1,88 @@
+name: Build Release APK
+
+on:
+  push:
+    tags: [ 'v*' ]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        variant: [ normal, fdroid ]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'zulu'
+          cache: gradle
+
+      - name: Setup Android-SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Create Google Services JSON File
+        if: matrix.variant == 'normal'
+        env:
+          DATA: ${{ secrets.GOOGLE_SERVICES_JSON }}
+        run: echo $DATA | base64 -di > ./app/google-services.json
+
+      - name: Create files for signing
+        env:
+          SIGNING_KEY: ${{ secrets.SIGNING_KEY }}
+          SIGNING_PROPERTIES: ${{ secrets.SIGNING_PROPERTIES }}
+        run: |
+          echo $SIGNING_KEY | base64 -di > ./booming_keystore.jks
+          echo $SIGNING_PROPERTIES | base64 -di > ./keystore.properties
+
+      - name: Make Gradle executable
+        run: chmod +x ./gradlew
+
+      - name: Build app
+        env:
+          BUILD_VARIANT: ${{ matrix.variant == 'normal' && 'Normal' || 'Fdroid' }}
+        run: ./gradlew assemble${{ env.BUILD_VARIANT }}Release
+
+      - name: Upload APKs
+        uses: actions/upload-artifact@v4
+        with:
+          name: apk-${{ matrix.variant }}-release
+          path: app/build/outputs/apk/*/release/*-release.apk
+
+  publish-release:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download APKs
+        uses: actions/download-artifact@v4
+        with:
+          path: release-apks
+          pattern: apk-*-release
+          merge-multiple: true
+
+      - name: Set prerelease flag
+        id: prerelease
+        run: |
+          TAG="${{ github.ref_name }}"
+          if [[ "$TAG" == *alpha* || "$TAG" == *beta* || "$TAG" == *rc* ]]; then
+            echo "value=true" >> $GITHUB_OUTPUT
+          else
+            echo "value=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Github Release
+        uses: softprops/action-gh-release@v2
+        with:
+          prerelease: ${{ steps.prerelease.outputs.value }}
+          generate_release_notes: true
+          files: |
+            release-apks/*/release/*-fdroid-release.apk
+            release-apks/*/release/*-normal-release.apk
