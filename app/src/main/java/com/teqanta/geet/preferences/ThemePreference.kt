@@ -59,7 +59,7 @@ class ThemePreference @JvmOverloads constructor(
             textView.typeface = if (textView.isChecked) {
                 ResourcesCompat.getFont(context, R.font.nothing_font)
             } else {
-                ResourcesCompat.getFont(context, R.font.nothing_font)
+                ResourcesCompat.getFont(context, R.font.manrope_semibold)
             }
         }
     }

@@ -237,9 +237,16 @@
     </style>
 
     <style name="ManropeThemeOverlay">
-        <item name="fontFamily">@font/nothing</item>
-        <item name="android:fontFamily">@font/nothing</item>
+        <item name="fontFamily">@font/manrope</item>
+        <item name="android:fontFamily">@font/manrope</item>
     </style>
+
+    <style name="PixelThemeOverlay">
+    <item name="fontFamily">@font/nothing</item>
+    <item name="android:fontFamily">@font/nothing</item>
+    </style>
+
+
 
     <style name="CarTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- colorPrimaryDark is currently used in Android Auto for:
