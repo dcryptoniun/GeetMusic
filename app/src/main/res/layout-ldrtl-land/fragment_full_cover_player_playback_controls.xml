@@ -145,7 +145,7 @@
         app:layout_constraintEnd_toStartOf="@+id/shuffle_button"
         tools:ignore="MissingPrefix"/>
 
-    <com.mardous.geet.views.playback.RepeatButton
+    <com.teqanta.geet.views.playback.RepeatButton
         android:id="@+id/repeat_button"
         android:layout_width="64dp"
         android:layout_height="64dp"
@@ -157,7 +157,7 @@
         app:layout_constraintEnd_toStartOf="@+id/previous"
         tools:ignore="MissingPrefix"/>
 
-    <com.mardous.geet.views.playback.ShuffleButton
+    <com.teqanta.geet.views.playback.ShuffleButton
         android:id="@+id/shuffle_button"
         android:layout_width="64dp"
         android:layout_height="64dp"

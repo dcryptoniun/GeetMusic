@@ -17,7 +17,7 @@
         android:orientation="vertical"
         tools:ignore="UnusedAttribute,UselessParent">
 
-        <com.mardous.geet.views.WidthFitSquareLayout
+        <com.teqanta.geet.views.WidthFitSquareLayout
             android:id="@+id/image_container"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -30,7 +30,7 @@
                 app:shapeAppearanceOverlay="?shapeAppearanceCornerLarge"
                 tools:srcCompat="@tools:sample/backgrounds/scenic"/>
 
-        </com.mardous.geet.views.WidthFitSquareLayout>
+        </com.teqanta.geet.views.WidthFitSquareLayout>
 
         <LinearLayout
             android:layout_width="match_parent"

@@ -17,21 +17,21 @@
         android:scrollbars="none"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"/>
 
-    <com.mardous.geet.views.TopAppBarLayout
+    <com.teqanta.geet.views.TopAppBarLayout
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="?appBarLayoutStyle"
         android:fitsSystemWindows="true">
 
-        <com.mardous.geet.views.BreadCrumbLayout
+        <com.teqanta.geet.views.BreadCrumbLayout
             android:id="@+id/breadCrumbs"
             android:layout_width="match_parent"
             android:layout_height="@dimen/tab_height"
             android:paddingStart="60dp"
             android:paddingEnd="8dp"
             app:layout_collapseMode="pin"/>
-    </com.mardous.geet.views.TopAppBarLayout>
+    </com.teqanta.geet.views.TopAppBarLayout>
 
     <LinearLayout
         android:id="@android:id/empty"

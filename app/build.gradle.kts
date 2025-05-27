@@ -84,7 +84,7 @@ val currentVersionCode = currentVersion.code
 
 android {
     compileSdk = 36
-    namespace = "com.mardous.geet"
+    namespace = "com.teqanta.geet"
 
     defaultConfig {
         minSdk = 26

@@ -50,7 +50,7 @@
 
         </androidx.core.widget.NestedScrollView>
 
-        <com.mardous.geet.views.LrcView
+        <com.teqanta.geet.views.LrcView
             android:id="@+id/lyrics_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
