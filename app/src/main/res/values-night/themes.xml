@@ -63,9 +63,10 @@
         <item name="floatingActionButtonStyle">@style/FloatingButtonStyle</item>
         <item name="elevationOverlayColor">@color/elevationOverlay</item>
         <item name="popupMenuBackground">@drawable/popupmenu_background</item>
-        <item name="windowActionModeOverlay">true</item>
-        <item name="android:actionBarSize">@dimen/toolbar_height</item>
+        <item name="windowActionModeOverlay">true</item>        <item name="android:actionBarSize">@dimen/toolbar_height</item>
         <item name="homeAsUpIndicator">@drawable/ic_back_24dp</item>
         <item name="defaultFooterColor">@color/footerDark</item>
+        <item name="android:fontFamily">@font/nothing</item>
+        <item name="fontFamily">@font/nothing</item>
     </style>
 </resources>

@@ -7,13 +7,13 @@
 
     <style name="Theme.Geet.Black" parent="Base.Theme.Geet.Black"/>
 
-    <style name="Theme.Geet.FollowSystem" parent="Base.Theme.Geet.Adaptive"/>
-
-    <style name="Theme.Geet.DynamicColors" parent="@style/Theme.Material3.DayNight.NoActionBar">
+    <style name="Theme.Geet.FollowSystem" parent="Base.Theme.Geet.Adaptive"/>    <style name="Theme.Geet.DynamicColors" parent="@style/Theme.Material3.DayNight.NoActionBar">
         <item name="roundSelector">@drawable/round_selector</item>
         <item name="rectSelector">@drawable/rect_selector</item>
         <item name="materialCardViewStyle">@style/Widget.Material3.CardView.Elevated</item>
         <item name="materialButtonStyle">@style/MaterialButtonStyle</item>
+        <item name="android:fontFamily">@font/nothing</item>
+        <item name="fontFamily">@font/nothing</item>
     </style>
 
     <style name="Theme.Geet.SplashScreen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
