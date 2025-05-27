@@ -33,7 +33,7 @@
         <attr name="android:fontFamily" />
     </declare-styleable>
 
-    <declare-styleable name="BoomingShapeableImageView">
+    <declare-styleable name="GeetShapeableImageView">
         <attr name="boomingCornerSize" format="dimension" />
         <attr name="circleShape" format="boolean" />
     </declare-styleable>

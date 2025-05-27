@@ -390,7 +390,7 @@
     <string name="reset_equalizer">Reset equalizer</string>
     <string name="select_configurations_to_export">エクスポートする設定を選択:</string>
     <string name="select_a_file_to_save_exported_configurations">エクスポートされた構成を保存するファイルを選択します。</string>
-    <string name="select_a_file_containing_booming_eq_presets">Booming Music EQ プリセットを含むファイルを選択します。</string>
+    <string name="select_a_file_containing_booming_eq_presets">Geet Music EQ プリセットを含むファイルを選択します。</string>
     <string name="select_configurations_to_import">インポートする構成を選択:</string>
     <string name="are_you_sure_you_want_to_reset_the_equalizer">イコライザをリセットしてもよろしいですか？
         \n\nすべてのプリセットが消去されます。</string>
@@ -484,7 +484,7 @@
     <string name="write_an_email">電子メールを書く</string>
     <string name="support_development">開発を支援する</string>
     <string name="help_with_translations">翻訳のヘルプ</string>
-    <string name="help_with_translations_summary">「Booming Music」を他の言語に翻訳することで、プロジェクトに貢献できます。</string>
+    <string name="help_with_translations_summary">「Geet Music」を他の言語に翻訳することで、プロジェクトに貢献できます。</string>
     <string name="report_bugs">バグを報告</string>
     <string name="report_bugs_summary">バグを報告するか、新機能をリクエストしてください。</string>
     <string name="share_app">このアプリを共有</string>
@@ -620,7 +620,7 @@
     <string name="online_artist_images_summary">これはメタデータのダウンロードポリシーに依存します。</string>
     <string name="preferred_artist_image_size_title">優先する画像サイズ</string>
     <string name="delete_downloaded_lyrics_title">ダウンロードした歌詞を削除</string>
-    <string name="delete_downloaded_lyrics_summary">Booming Musicによってダウンロードされた歌詞のみ。ID3v2タグまたはLRCファイルに埋め込まれた歌詞には影響しません。</string>
+    <string name="delete_downloaded_lyrics_summary">Geet Musicによってダウンロードされた歌詞のみ。ID3v2タグまたはLRCファイルに埋め込まれた歌詞には影響しません。</string>
     <string name="lyrics_cleared">歌詞を消去しました。</string>
     <!-- Library preferences -->
     <string name="trash_music_title">ゴミ箱に送る</string>

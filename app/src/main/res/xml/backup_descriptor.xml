@@ -4,7 +4,7 @@
     <include domain="database" path="history.db"/>
     <exclude domain="database" path="music_playback_state.db" tools:ignore="FullBackupContent"/>
 
-    <include domain="sharedpref" path="BoomingAudioFX.xml"/>
+    <include domain="sharedpref" path="GeetAudioFX.xml"/>
 
     <!-- Exclude the shared preferences file that contains the GCM registrationId -->
     <exclude domain="sharedpref" path="artist_signatures.xml" tools:ignore="FullBackupContent"/>

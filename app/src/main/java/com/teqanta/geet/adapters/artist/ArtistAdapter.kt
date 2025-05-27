@@ -37,7 +37,7 @@ import com.teqanta.geet.extensions.glide.getDefaultGlideTransition
 import com.teqanta.geet.extensions.media.artistInfo
 import com.teqanta.geet.extensions.media.displayName
 import com.teqanta.geet.extensions.media.sectionName
-import com.teqanta.geet.glide.BoomingColoredTarget
+import com.teqanta.geet.glide.GeetColoredTarget
 import com.teqanta.geet.helper.color.MediaNotificationProcessor
 import com.teqanta.geet.helper.menu.OnClickMenu
 import com.teqanta.geet.interfaces.IArtistCallback
@@ -94,7 +94,7 @@ open class ArtistAdapter(
                 .load(artist.getArtistGlideModel())
                 .transition(getDefaultGlideTransition())
                 .artistOptions(artist)
-                .into(object : BoomingColoredTarget(holder.image) {
+                .into(object : GeetColoredTarget(holder.image) {
                     override fun onColorReady(colors: MediaNotificationProcessor) {
                         holder.setColors(colors)
                     }

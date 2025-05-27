@@ -38,7 +38,7 @@ import com.teqanta.geet.extensions.glide.getSongGlideModel
 import com.teqanta.geet.extensions.glide.songOptions
 import com.teqanta.geet.extensions.resources.getPrimaryTextColor
 import com.teqanta.geet.extensions.resources.toBitmap
-import com.teqanta.geet.glide.BoomingSimpleTarget
+import com.teqanta.geet.glide.GeetSimpleTarget
 import com.teqanta.geet.service.MusicService
 import com.teqanta.geet.service.constants.ServiceAction
 
@@ -126,7 +126,7 @@ class AppWidgetBig : BaseAppWidget() {
                 .load(song.getSongGlideModel())
                 .transition(getDefaultGlideTransition())
                 .songOptions(song)
-                .into(object : BoomingSimpleTarget<Bitmap>(widgetImageSize, widgetImageSize) {
+                .into(object : GeetSimpleTarget<Bitmap>(widgetImageSize, widgetImageSize) {
                     override fun onResourceReady(resource: Bitmap, transition: Transition<in Bitmap>?) {
                         update(resource)
                     }

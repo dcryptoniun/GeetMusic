@@ -404,7 +404,7 @@
     <string name="reset_equalizer">Reset equalizer</string>
     <string name="select_configurations_to_export">Selectați configurațiile de exportat:</string>
     <string name="select_a_file_to_save_exported_configurations">Selectați un fișier pentru a salva configurațiile exportate.</string>
-    <string name="select_a_file_containing_booming_eq_presets">Selectaţi un fişier care conţine presetări de muzică Booming EQ.</string>
+    <string name="select_a_file_containing_booming_eq_presets">Selectaţi un fişier care conţine presetări de muzică Geet EQ.</string>
     <string name="select_configurations_to_import">Selectați configurațiile pentru import:</string>
     <string name="are_you_sure_you_want_to_reset_the_equalizer">Sunteţi sigur că doriţi să resetaţi egalizatorul?
         \n\nAcest lucru va şterge toate presetările.</string>
@@ -456,7 +456,7 @@
     <string name="import_lyrics_for_song_x">Versuri importate pentru %s</string>
     <string name="could_not_import_lyrics_for_song_x">Nu s-au putut importa versuri pentru %s</string>
     <string name="select_a_file_containing_synchronized_lyrics">Selectați un fișier LRC care conține versuri sincronizate.</string>
-    <string name="cannot_download_lyrics">Booming Music nu a putut găsi versurile acestei melodii. Vrei să cauți manual?</string>
+    <string name="cannot_download_lyrics">Geet Music nu a putut găsi versurile acestei melodii. Vrei să cauți manual?</string>
     <string name="search_lyrics">Caută versuri</string>
     <string name="choose_lyrics">Alege tipul de versuri</string>
     <string name="download_lyrics">Descarcă versuri</string>
@@ -498,13 +498,13 @@
     <string name="write_an_email">Scrie un e-mail</string>
     <string name="support_development">Sprijină dezvoltarea</string>
     <string name="help_with_translations">Ajutor cu traducerile</string>
-    <string name="help_with_translations_summary">Poti contribui la proiect ajutand la traducerea muzicii Booming in alte limbi.</string>
+    <string name="help_with_translations_summary">Poti contribui la proiect ajutand la traducerea muzicii Geet in alte limbi.</string>
     <string name="report_bugs">Raportează erori</string>
     <string name="report_bugs_summary">Raportează erori sau cere noi caracteristici.</string>
     <string name="share_app">Distribuie această aplicație</string>
     <string name="share_app_summary">Poți ajuta această aplicație să crească dacă o împarți cu prietenii.</string>
     <string name="send_invitation_message">Trimite mesaj de invitație</string>
-    <string name="invitation_message_content">Salut. Uită-te la Booming Music! Cea mai bună aplicație pentru a asculta muzică locală pe Android. Poți să o descarci de aici: %s</string>
+    <string name="invitation_message_content">Salut. Uită-te la Geet Music! Cea mai bună aplicație pentru a asculta muzică locală pe Android. Poți să o descarci de aici: %s</string>
     <!-- Bug report -->
     <string name="report_an_issue">Raportează o problemă</string>
     <string name="device_info">Informații despre dispozitiv</string>
@@ -512,7 +512,7 @@
     <string name="you_will_be_forwarded_to_the_issue_tracker_website">Veţi fi redirecţionat către site-ul de urmărire a problemelor.</string>
     <!-- SAF -->
     <string name="saf_access_required_title">Acces la stocare necesar</string>
-    <string name="saf_access_required_message">Booming-ul necesită permisiunea de a accesa aceste fișiere. Vă rugăm să alegeți directorul rădăcină al cardului SD.</string>
+    <string name="saf_access_required_message">Geet-ul necesită permisiunea de a accesa aceste fișiere. Vă rugăm să alegeți directorul rădăcină al cardului SD.</string>
     <string name="saf_show_files_button">Afișare fișiere</string>
     <string name="saf_error_uri">Nu se poate obține URL-ul SAF</string>
     <string name="saf_write_failed">Scrierea fișierului a eșuat: %s</string>
@@ -535,7 +535,7 @@
     <string name="update_title">Actualizare</string>
     <string name="update_summary">Setări pentru actualizări aplicații.</string>
     <string name="about_title">Despre</string>
-    <string name="about_summary">Booming Music %s, click pentru mai multe informații.</string>
+    <string name="about_summary">Geet Music %s, click pentru mai multe informații.</string>
     <!-- Preference headers -->
     <string name="general_header">Generalități</string>
     <string name="library_header">Bibliotecă</string>
@@ -634,7 +634,7 @@
     <string name="online_artist_images_summary">Acest lucru depinde de politica de descărcare a metadatei.</string>
     <string name="preferred_artist_image_size_title">Dimensiunea imaginii preferate</string>
     <string name="delete_downloaded_lyrics_title">Șterge versurile descărcate</string>
-    <string name="delete_downloaded_lyrics_summary">Doar versurile descărcate de Booming Music. Nu afectează versurile încorporate în tag-urile ID3v2 sau fişierele LRC.</string>
+    <string name="delete_downloaded_lyrics_summary">Doar versurile descărcate de Geet Music. Nu afectează versurile încorporate în tag-urile ID3v2 sau fişierele LRC.</string>
     <string name="lyrics_cleared">Versuri șterse.</string>
     <!-- Library preferences -->
     <string name="trash_music_title">Trimite la gunoi</string>
@@ -741,7 +741,7 @@
     <string name="more_info_action">Mai multe informații.</string>
     <string name="download_action">Descărcare</string>
     <string name="downloading_update">Se descarcă actualizările cu muzica înfloritoare.</string>
-    <string name="downloaded_update_name">Booming Music %s (Apasă pentru a instala)</string>
+    <string name="downloaded_update_name">Geet Music %s (Apasă pentru a instala)</string>
     <string name="uncaught_error_title">A apărut o eroare neașteptată</string>
     <string name="uncaught_error_message">Ne cerem scuze pentru neplăceri. Puteți revizui raportul de eroare și reporni aplicația.</string>
     <string name="uncaught_error_restart_app">Reporniți aplicația</string>

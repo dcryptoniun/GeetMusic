@@ -126,7 +126,7 @@
     <string name="permission_exact_alarms_description">Tillatelse til å planlegge nøyaktige alarmer kreves for at sovetiden skal fungere ordentlig</string>
     <string name="permission_ringtone_title">Ringetone (valgfritt)</string>
     <string name="permission_ringtone_description">Appen trenger tilgang til enhetens innstillinger for å kunne angi musikk som Ringtone</string>
-    <string name="permission_request_write_settings"><![CDATA[Du må tillate at Booming Music endrer systeminnstillingene for å velge <b>%s</b> som ringetone]]></string>
+    <string name="permission_request_write_settings"><![CDATA[Du må tillate at Geet Music endrer systeminnstillingene for å velge <b>%s</b> som ringetone]]></string>
     <string name="permissions_denied">Tillatelser avvist</string>
     <string name="permissions_needed">Tillatelser nødvendig</string>
     <string name="grant_access_action">Gi Tilgang</string>
@@ -397,7 +397,7 @@
     <string name="reset_equalizer">Reset equalizer</string>
     <string name="select_configurations_to_export">Velg konfigurasjoner som skal eksporteres:</string>
     <string name="select_a_file_to_save_exported_configurations">Velg fil for å lagre eksporterte konfigurasjoner.</string>
-    <string name="select_a_file_containing_booming_eq_presets">Velg en fil som inneholder innstilling av Booming Music EQ.</string>
+    <string name="select_a_file_containing_booming_eq_presets">Velg en fil som inneholder innstilling av Geet Music EQ.</string>
     <string name="select_configurations_to_import">Velg konfigurasjoner som skal importeres:</string>
     <string name="are_you_sure_you_want_to_reset_the_equalizer">Er du sikker på at du vil tilbakestille equalizer?
         \n\nDette vil fjerne alle dine forhåndsinnstillinger.</string>
@@ -449,7 +449,7 @@
     <string name="import_lyrics_for_song_x">Importerte sangtekster for %s</string>
     <string name="could_not_import_lyrics_for_song_x">Kunne ikke importere tekster for %s</string>
     <string name="select_a_file_containing_synchronized_lyrics">Velg en LRC-fil som inneholder synkroniserte sangtekster.</string>
-    <string name="cannot_download_lyrics">Booming Music kunne ikke finne sangteksten for denne sangen. Vil du søke manuelt?</string>
+    <string name="cannot_download_lyrics">Geet Music kunne ikke finne sangteksten for denne sangen. Vil du søke manuelt?</string>
     <string name="search_lyrics">Søk etter tekster</string>
     <string name="choose_lyrics">Velg type tekst</string>
     <string name="download_lyrics">Last ned tekster</string>
@@ -491,13 +491,13 @@
     <string name="write_an_email">Stuur een email</string>
     <string name="support_development">Støtt utviklingen</string>
     <string name="help_with_translations">Hjelp med oversettelser</string>
-    <string name="help_with_translations_summary">Du kan bidra til prosjektet ved å hjelpe til med å oversette Booming Music til andre språk.</string>
+    <string name="help_with_translations_summary">Du kan bidra til prosjektet ved å hjelpe til med å oversette Geet Music til andre språk.</string>
     <string name="report_bugs">Rapporter feil</string>
     <string name="report_bugs_summary">Rapportere feil eller foreslå nye funksjoner.</string>
     <string name="share_app">Del denne appen</string>
     <string name="share_app_summary">Du kan hjelpe denne appen med å vokse hvis du deler den med venner.</string>
     <string name="send_invitation_message">Send invitasjons melding</string>
-    <string name="invitation_message_content">Hi. Sjekk ut Booming Music! Den beste appen for å høre lokal musikk på Android. Du kan laste den ned her: %s</string>
+    <string name="invitation_message_content">Hi. Sjekk ut Geet Music! Den beste appen for å høre lokal musikk på Android. Du kan laste den ned her: %s</string>
     <!-- Bug report -->
     <string name="report_an_issue">Rapporter et problem</string>
     <string name="device_info">Enhetens info</string>
@@ -505,7 +505,7 @@
     <string name="you_will_be_forwarded_to_the_issue_tracker_website">Du videresendes til nettsiden for feilmeldingsspor.</string>
     <!-- SAF -->
     <string name="saf_access_required_title">Lagringstilgang kreves</string>
-    <string name="saf_access_required_message">Boomings krever tillatelse til å få tilgang til disse filene. Velg rotmappen for SD-kort.</string>
+    <string name="saf_access_required_message">Geets krever tillatelse til å få tilgang til disse filene. Velg rotmappen for SD-kort.</string>
     <string name="saf_show_files_button">Vis filer</string>
     <string name="saf_error_uri">Kan ikke motta AF-URI</string>
     <string name="saf_write_failed">Filskrivingen mislyktes: %s</string>
@@ -528,7 +528,7 @@
     <string name="update_title">Oppdater</string>
     <string name="update_summary">Innstillinger for app oppdateringer.</string>
     <string name="about_title">Om</string>
-    <string name="about_summary">Booming Music %s, trykk for mer info.</string>
+    <string name="about_summary">Geet Music %s, trykk for mer info.</string>
     <!-- Preference headers -->
     <string name="general_header">Generelt</string>
     <string name="library_header">Bibliotek</string>
@@ -627,7 +627,7 @@
     <string name="online_artist_images_summary">Dette avhenger av din metadata nedlastingspolicy.</string>
     <string name="preferred_artist_image_size_title">Foretrukket bildestørrelse</string>
     <string name="delete_downloaded_lyrics_title">Slett nedlastede tekster</string>
-    <string name="delete_downloaded_lyrics_summary">Bare tekster lastet ned av Booming Music. Påvirker ikke tekster innebygd i ID3v2 tagger eller LRC-filer.</string>
+    <string name="delete_downloaded_lyrics_summary">Bare tekster lastet ned av Geet Music. Påvirker ikke tekster innebygd i ID3v2 tagger eller LRC-filer.</string>
     <string name="lyrics_cleared">Teksten er tømt.</string>
     <!-- Library preferences -->
     <string name="trash_music_title">Send til papirkurven</string>
@@ -733,8 +733,8 @@
     <string name="update_available_title">Oppdatering tilgjengelig</string>
     <string name="more_info_action">Mer info.</string>
     <string name="download_action">Nedlasting</string>
-    <string name="downloading_update">Laster ned Booming Music update.</string>
-    <string name="downloaded_update_name">Booming Music %s (Trykk for å installere)</string>
+    <string name="downloading_update">Laster ned Geet Music update.</string>
+    <string name="downloaded_update_name">Geet Music %s (Trykk for å installere)</string>
     <string name="uncaught_error_title">Det oppstod en uventet feil</string>
     <string name="uncaught_error_message">Beklager ulempen. Du kan gjennomgå feilrapporten og starte appen på nytt.</string>
     <string name="uncaught_error_restart_app">Starte appen på nytt</string>

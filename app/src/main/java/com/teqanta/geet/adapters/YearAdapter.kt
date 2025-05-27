@@ -35,7 +35,7 @@ import com.teqanta.geet.extensions.glide.songOptions
 import com.teqanta.geet.extensions.media.songsStr
 import com.teqanta.geet.extensions.resources.toColorStateList
 import com.teqanta.geet.extensions.resources.useAsIcon
-import com.teqanta.geet.glide.BoomingColoredTarget
+import com.teqanta.geet.glide.GeetColoredTarget
 import com.teqanta.geet.helper.color.MediaNotificationProcessor
 import com.teqanta.geet.helper.menu.OnClickMenu
 import com.teqanta.geet.interfaces.IYearCallback
@@ -86,7 +86,7 @@ class YearAdapter(
             requestManager.asBitmapPalette()
                 .load(year.safeGetFirstSong().getSongGlideModel())
                 .songOptions(year.safeGetFirstSong())
-                .into(object : BoomingColoredTarget(holder.image) {
+                .into(object : GeetColoredTarget(holder.image) {
                     override fun onColorReady(colors: MediaNotificationProcessor) {
                         holder.setColors(colors)
                         if (holder.text != null) {

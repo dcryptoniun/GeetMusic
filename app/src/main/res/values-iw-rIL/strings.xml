@@ -126,7 +126,7 @@
     <string name="permission_exact_alarms_description">נדרשת הרשאה לתזמן התראות מדויקות כדי שטיימר השינה יפעל כראוי</string>
     <string name="permission_ringtone_title">צלצול (אופציונלי)</string>
     <string name="permission_ringtone_description">האפליקציה זקוקה להרשאה לגשת להגדרות המכשיר שלך כדי להגדיר מוזיקה כצלצול</string>
-    <string name="permission_request_write_settings"><![CDATA[עליך לאפשר ל-Booming Music לשנות את הגדרות המערכת על מנת להגדיר את <b>%s</b> כצלצול שלך]]></string>
+    <string name="permission_request_write_settings"><![CDATA[עליך לאפשר ל-Geet Music לשנות את הגדרות המערכת על מנת להגדיר את <b>%s</b> כצלצול שלך]]></string>
     <string name="permissions_denied">הרשאות נדחו</string>
     <string name="permissions_needed">הרשאות נדרשות</string>
     <string name="grant_access_action">הענק גישה</string>
@@ -411,7 +411,7 @@
     <string name="reset_equalizer">Reset equalizer</string>
     <string name="select_configurations_to_export">Select configurations to export:</string>
     <string name="select_a_file_to_save_exported_configurations">Select a file to save exported configurations.</string>
-    <string name="select_a_file_containing_booming_eq_presets">Select a file containing Booming Music EQ presets.</string>
+    <string name="select_a_file_containing_booming_eq_presets">Select a file containing Geet Music EQ presets.</string>
     <string name="select_configurations_to_import">Select configurations to import:</string>
     <string name="are_you_sure_you_want_to_reset_the_equalizer">Are you sure you want to reset the equalizer?
         \n\nThis will clear all your presets.</string>
@@ -463,7 +463,7 @@
     <string name="import_lyrics_for_song_x">Imported lyrics for %s</string>
     <string name="could_not_import_lyrics_for_song_x">Couldn\'t import lyrics for %s</string>
     <string name="select_a_file_containing_synchronized_lyrics">Select a LRC file containing synced lyrics.</string>
-    <string name="cannot_download_lyrics">Booming Music couldn\'t find the lyrics for this song. Do you want to search manually?</string>
+    <string name="cannot_download_lyrics">Geet Music couldn\'t find the lyrics for this song. Do you want to search manually?</string>
     <string name="search_lyrics">Search lyrics</string>
     <string name="choose_lyrics">Choose the type of lyrics</string>
     <string name="download_lyrics">Download lyrics</string>
@@ -505,13 +505,13 @@
     <string name="write_an_email">כתוב אימייל</string>
     <string name="support_development">תמיכה בפיתוח</string>
     <string name="help_with_translations">עזרה בתרגומים</string>
-    <string name="help_with_translations_summary">באפשרותך לתרום לפרויקט על ידי סיוע בתרגום Booming Music לשפות אחרות.</string>
+    <string name="help_with_translations_summary">באפשרותך לתרום לפרויקט על ידי סיוע בתרגום Geet Music לשפות אחרות.</string>
     <string name="report_bugs">דווח על באגים</string>
     <string name="report_bugs_summary">דווח על באגים או בקש פיצ\'רים חדשים.</string>
     <string name="share_app">שיתוף יישומון זה</string>
     <string name="share_app_summary">תוכל לעזור לאפליקציה הזו לצמוח על ידי שיתוף לחברים.</string>
     <string name="send_invitation_message">שלח הודעת הזמנה</string>
-    <string name="invitation_message_content">היי. בדוק את Booming Music! האפליקציה הטובה ביותר להאזנה למוזיקה מקומית באנדרואיד. אתה יכול להוריד אותה מכאן: %s</string>
+    <string name="invitation_message_content">היי. בדוק את Geet Music! האפליקציה הטובה ביותר להאזנה למוזיקה מקומית באנדרואיד. אתה יכול להוריד אותה מכאן: %s</string>
     <!-- Bug report -->
     <string name="report_an_issue">דוח על תקלה</string>
     <string name="device_info">מידע על המכשיר</string>
@@ -519,7 +519,7 @@
     <string name="you_will_be_forwarded_to_the_issue_tracker_website">תועברו לאתר האינטרנט למעקב הבעיות.</string>
     <!-- SAF -->
     <string name="saf_access_required_title">נדרש גישה לאחסון</string>
-    <string name="saf_access_required_message">Boomings requires permission to access these files. Please pick the SD card root directory.</string>
+    <string name="saf_access_required_message">Geets requires permission to access these files. Please pick the SD card root directory.</string>
     <string name="saf_show_files_button">Show files</string>
     <string name="saf_error_uri">Can\'t get SAF URI</string>
     <string name="saf_write_failed">File write failed: %s</string>
@@ -542,7 +542,7 @@
     <string name="update_title">Update</string>
     <string name="update_summary">Settings for app updates.</string>
     <string name="about_title">About</string>
-    <string name="about_summary">Booming Music %s, touch for more info.</string>
+    <string name="about_summary">Geet Music %s, touch for more info.</string>
     <!-- Preference headers -->
     <string name="general_header">General</string>
     <string name="library_header">Library</string>
@@ -641,7 +641,7 @@
     <string name="online_artist_images_summary">This depends on your metadata download policy.</string>
     <string name="preferred_artist_image_size_title">Preferred image size</string>
     <string name="delete_downloaded_lyrics_title">Delete downloaded lyrics</string>
-    <string name="delete_downloaded_lyrics_summary">Only lyrics downloaded by Booming Music. Does not affect lyrics embedded in ID3v2 tags or LRC files.</string>
+    <string name="delete_downloaded_lyrics_summary">Only lyrics downloaded by Geet Music. Does not affect lyrics embedded in ID3v2 tags or LRC files.</string>
     <string name="lyrics_cleared">Lyrics cleared.</string>
     <!-- Library preferences -->
     <string name="trash_music_title">Send to trash</string>
@@ -747,8 +747,8 @@
     <string name="update_available_title">Update available</string>
     <string name="more_info_action">More info.</string>
     <string name="download_action">Download</string>
-    <string name="downloading_update">Downloading Booming Music update.</string>
-    <string name="downloaded_update_name">Booming Music %s (Tap To Install)</string>
+    <string name="downloading_update">Downloading Geet Music update.</string>
+    <string name="downloaded_update_name">Geet Music %s (Tap To Install)</string>
     <string name="uncaught_error_title">An unexpected error occurred</string>
     <string name="uncaught_error_message">Sorry for the inconvenience. You can review the error report and restart the app.</string>
     <string name="uncaught_error_restart_app">Restart app</string>

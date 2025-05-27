@@ -41,7 +41,7 @@ import com.teqanta.geet.extensions.media.displayArtistName
 import com.teqanta.geet.extensions.media.sectionName
 import com.teqanta.geet.extensions.media.songInfo
 import com.teqanta.geet.extensions.utilities.buildInfoString
-import com.teqanta.geet.glide.BoomingColoredTarget
+import com.teqanta.geet.glide.GeetColoredTarget
 import com.teqanta.geet.helper.color.MediaNotificationProcessor
 import com.teqanta.geet.helper.menu.OnClickMenu
 import com.teqanta.geet.interfaces.ISongCallback
@@ -101,7 +101,7 @@ open class SongAdapter(
                 .load(song.getSongGlideModel())
                 .transition(getDefaultGlideTransition())
                 .songOptions(song)
-                .into(object : BoomingColoredTarget(holder.image) {
+                .into(object : GeetColoredTarget(holder.image) {
                     override fun onColorReady(colors: MediaNotificationProcessor) {
                         holder.setColors(colors)
                     }

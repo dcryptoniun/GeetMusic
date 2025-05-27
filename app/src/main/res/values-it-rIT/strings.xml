@@ -126,7 +126,7 @@
     <string name="permission_exact_alarms_description">Per il corretto funzionamento del timer di sonno è necessario il permesso di pianificare gli allarmi esatti</string>
     <string name="permission_ringtone_title">Suoneria (opzionale)</string>
     <string name="permission_ringtone_description">L\'app ha bisogno dell\'autorizzazione per accedere alle impostazioni del dispositivo per impostare la musica come suoneria</string>
-    <string name="permission_request_write_settings"><![CDATA[Devi permettere che la musica Booming modifichi le impostazioni di sistema per impostare <b>%s</b> come suoneria]]></string>
+    <string name="permission_request_write_settings"><![CDATA[Devi permettere che la musica Geet modifichi le impostazioni di sistema per impostare <b>%s</b> come suoneria]]></string>
     <string name="permissions_denied">Permessi negati</string>
     <string name="permissions_needed">Permessi necessari</string>
     <string name="grant_access_action">Concedi accesso</string>
@@ -449,7 +449,7 @@
     <string name="import_lyrics_for_song_x">Testo importato per %s</string>
     <string name="could_not_import_lyrics_for_song_x">Impossibile importare il testo per %s</string>
     <string name="select_a_file_containing_synchronized_lyrics">Selezionare un file LRC contenente i testi sincronizzati.</string>
-    <string name="cannot_download_lyrics">Booming Music non ha trovato il testo di questa canzone. Vuoi cercare manualmente?</string>
+    <string name="cannot_download_lyrics">Geet Music non ha trovato il testo di questa canzone. Vuoi cercare manualmente?</string>
     <string name="search_lyrics">Cerca testo</string>
     <string name="choose_lyrics">Scegli il tipo di testo</string>
     <string name="download_lyrics">Scarica testo</string>
@@ -491,13 +491,13 @@
     <string name="write_an_email">Scrivi un\'email</string>
     <string name="support_development">Sostenere lo sviluppo</string>
     <string name="help_with_translations">Aiuto con le traduzioni</string>
-    <string name="help_with_translations_summary">Puoi contribuire al progetto aiutando a tradurre la musica Booming in altre lingue.</string>
+    <string name="help_with_translations_summary">Puoi contribuire al progetto aiutando a tradurre la musica Geet in altre lingue.</string>
     <string name="report_bugs">Segnala bug</string>
     <string name="report_bugs_summary">Segnala bug o richiedi nuove funzionalità.</string>
     <string name="share_app">Condividi questa app</string>
     <string name="share_app_summary">Puoi aiutare questa app a crescere se la condividi con gli amici.</string>
     <string name="send_invitation_message">Invia messaggio di invito</string>
-    <string name="invitation_message_content">Ciao. Dai un\'occhiata a Booming Music! La migliore app per ascoltare musica locale su Android. Puoi scaricarla da qui: %s</string>
+    <string name="invitation_message_content">Ciao. Dai un\'occhiata a Geet Music! La migliore app per ascoltare musica locale su Android. Puoi scaricarla da qui: %s</string>
     <!-- Bug report -->
     <string name="report_an_issue">Segnala un problema</string>
     <string name="device_info">Informazioni dispositivo</string>
@@ -505,7 +505,7 @@
     <string name="you_will_be_forwarded_to_the_issue_tracker_website">Verrà inoltrato al sito web del tracker dei problemi.</string>
     <!-- SAF -->
     <string name="saf_access_required_title">Accesso Di Archiviazione Richiesto</string>
-    <string name="saf_access_required_message">Boomings richiede l\'autorizzazione per accedere a questi file. Scegli la directory radice della scheda SD.</string>
+    <string name="saf_access_required_message">Geets richiede l\'autorizzazione per accedere a questi file. Scegli la directory radice della scheda SD.</string>
     <string name="saf_show_files_button">Mostra file</string>
     <string name="saf_error_uri">Impossibile ottenere SAF URI</string>
     <string name="saf_write_failed">Scrittura del file non riuscita: %s</string>
@@ -528,7 +528,7 @@
     <string name="update_title">Aggiorna</string>
     <string name="update_summary">Impostazioni per gli aggiornamenti delle app.</string>
     <string name="about_title">Informazioni</string>
-    <string name="about_summary">Booming Music %s, tocca per ulteriori informazioni.</string>
+    <string name="about_summary">Geet Music %s, tocca per ulteriori informazioni.</string>
     <!-- Preference headers -->
     <string name="general_header">Generale</string>
     <string name="library_header">Libreria</string>
@@ -627,7 +627,7 @@
     <string name="online_artist_images_summary">Questo dipende dalla politica di download dei metadati.</string>
     <string name="preferred_artist_image_size_title">Dimensione immagine preferita</string>
     <string name="delete_downloaded_lyrics_title">Elimina i testi scaricati</string>
-    <string name="delete_downloaded_lyrics_summary">Solo i testi scaricati da Booming Music. Non influiscono sui testi incorporati nei tag ID3v2 o nei file LRC.</string>
+    <string name="delete_downloaded_lyrics_summary">Solo i testi scaricati da Geet Music. Non influiscono sui testi incorporati nei tag ID3v2 o nei file LRC.</string>
     <string name="lyrics_cleared">Testo cancellato.</string>
     <!-- Library preferences -->
     <string name="trash_music_title">Invia al cestino</string>
@@ -734,7 +734,7 @@
     <string name="more_info_action">Maggiori informazioni.</string>
     <string name="download_action">Scarica</string>
     <string name="downloading_update">Scaricamento aggiornamento musica booming.</string>
-    <string name="downloaded_update_name">Booming Music %s (Da Installare)</string>
+    <string name="downloaded_update_name">Geet Music %s (Da Installare)</string>
     <string name="uncaught_error_title">Si è verificato un errore imprevisto</string>
     <string name="uncaught_error_message">Siamo spiacenti per l\'inconveniente. Puoi rivedere il rapporto di errore e riavviare l\'app.</string>
     <string name="uncaught_error_restart_app">Riavvia app</string>

@@ -158,7 +158,7 @@ class EqualizerManager internal constructor(context: Context) {
         return true
     }
 
-    fun getNewExportName(): String = getFormattedFileName("BoomingEQ", "json")
+    fun getNewExportName(): String = getFormattedFileName("GeetEQ", "json")
 
     fun getNewPresetFromCustom(presetName: String): EQPreset {
         return EQPreset(getCustomPreset(), presetName, isCustom = false)
@@ -589,7 +589,7 @@ class EqualizerManager internal constructor(context: Context) {
          */
         const val EQUALIZER_MAX_BANDS = 6
 
-        const val PREFERENCES_NAME = "BoomingAudioFX"
+        const val PREFERENCES_NAME = "GeetAudioFX"
         private const val CUSTOM_PRESET_NAME = "Custom"
         private const val DEFAULT_DELIMITER = ";"
     }

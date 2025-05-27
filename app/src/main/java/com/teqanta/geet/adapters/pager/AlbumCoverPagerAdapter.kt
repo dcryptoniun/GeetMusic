@@ -35,7 +35,7 @@ import com.teqanta.geet.extensions.glide.asBitmapPalette
 import com.teqanta.geet.extensions.glide.getSongGlideModel
 import com.teqanta.geet.extensions.glide.songOptions
 import com.teqanta.geet.extensions.withArgs
-import com.teqanta.geet.glide.BoomingColoredTarget
+import com.teqanta.geet.glide.GeetColoredTarget
 import com.teqanta.geet.helper.color.MediaNotificationProcessor
 import com.teqanta.geet.model.Song
 import com.teqanta.geet.util.Preferences
@@ -123,7 +123,7 @@ class AlbumCoverPagerAdapter(fm: FragmentManager, private val dataSet: List<Song
                     .load(song.getSongGlideModel())
                     .songOptions(song)
                     .dontAnimate()
-                    .into(object : BoomingColoredTarget(albumCover!!) {
+                    .into(object : GeetColoredTarget(albumCover!!) {
                         override fun onColorReady(colors: MediaNotificationProcessor) {
                             setPalette(colors)
                         }

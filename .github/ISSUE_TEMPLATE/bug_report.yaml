@@ -12,7 +12,7 @@ body:
     id: version
     attributes:
       label: App version
-      description: What version of Booming Music are you using?
+      description: What version of Geet Music are you using?
       placeholder: e.g. v1.0.0-beta1
     validations:
       required: true

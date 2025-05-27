@@ -31,10 +31,10 @@ import java.io.File
 object FileUtil : KoinComponent {
 
     // Publicly accessible directories
-    const val BOOMING_ARTWORK_DIRECTORY_NAME = "Booming Artwork"
+    const val BOOMING_ARTWORK_DIRECTORY_NAME = "Geet Artwork"
     const val PLAYLISTS_DIRECTORY_NAME = "Playlists"
 
-    // Directories that are accessible only for Booming
+    // Directories that are accessible only for Geet
     private const val CUSTOM_ARTIST_IMAGES_DIRECTORY_NAME = "/custom_artist_images/"
     private const val THUMBS_DIRECTORY_NAME = "Thumbs"
 

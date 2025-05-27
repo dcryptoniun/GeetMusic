@@ -42,10 +42,10 @@ class AppTheme private constructor(
         get() = DYNAMIC_COLOR_SUPPORTED && seedColor != EMPTY_PRIMARY_COLOR
 
     enum class Mode(@StyleRes val themeRes: Int) {
-        Light(R.style.Theme_Booming_Light),
-        Dark(R.style.Theme_Booming),
-        Black(R.style.Theme_Booming_Black),
-        FollowSystem(R.style.Theme_Booming_FollowSystem)
+        Light(R.style.Theme_Geet_Light),
+        Dark(R.style.Theme_Geet),
+        Black(R.style.Theme_Geet_Black),
+        FollowSystem(R.style.Theme_Geet_FollowSystem)
     }
 
     companion object {
@@ -57,8 +57,8 @@ class AppTheme private constructor(
             val themeMode = Preferences.getThemeMode(generalTheme)
             if (DYNAMIC_COLOR_SUPPORTED) {
                 val themeRes = when (generalTheme) {
-                    GeneralTheme.BLACK -> R.style.Theme_Booming_DynamicColors_Black
-                    else -> R.style.Theme_Booming_DynamicColors
+                    GeneralTheme.BLACK -> R.style.Theme_Geet_DynamicColors_Black
+                    else -> R.style.Theme_Geet_DynamicColors
                 }
                 if (Preferences.materialYou) {
                     return AppTheme(generalTheme, themeRes)

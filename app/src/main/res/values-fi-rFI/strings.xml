@@ -126,7 +126,7 @@
     <string name="permission_exact_alarms_description">Tarkkojen hälytysten ajoittaminen on tarpeen, jotta unen ajastin toimisi kunnolla</string>
     <string name="permission_ringtone_title">Soittoääni (valinnainen)</string>
     <string name="permission_ringtone_description">Sovellus tarvitsee luvan käyttää laitteesi asetuksia asettaakseen musiikin soittoääneksi</string>
-    <string name="permission_request_write_settings"><![CDATA[Sinun on sallittava Booming Musiikin muokata järjestelmän asetuksia asettaaksesi <b>%s</b> soittoääneksi]]></string>
+    <string name="permission_request_write_settings"><![CDATA[Sinun on sallittava Geet Musiikin muokata järjestelmän asetuksia asettaaksesi <b>%s</b> soittoääneksi]]></string>
     <string name="permissions_denied">Oikeudet evätty</string>
     <string name="permissions_needed">Käyttöoikeudet tarvitaan</string>
     <string name="grant_access_action">Anna käyttöoikeus</string>
@@ -397,7 +397,7 @@
     <string name="reset_equalizer">Reset equalizer</string>
     <string name="select_configurations_to_export">Valitse vietävät konfiguraatiot:</string>
     <string name="select_a_file_to_save_exported_configurations">Valitse tiedosto tallennettavaksi viedyt asetukset.</string>
-    <string name="select_a_file_containing_booming_eq_presets">Valitse tiedosto, joka sisältää Booming Music EQ-esiasetuksia.</string>
+    <string name="select_a_file_containing_booming_eq_presets">Valitse tiedosto, joka sisältää Geet Music EQ-esiasetuksia.</string>
     <string name="select_configurations_to_import">Valitse tuotavat konfiguraatiot:</string>
     <string name="are_you_sure_you_want_to_reset_the_equalizer">Oletko varma, että haluat palauttaa taajuuskorjaimen?
         \n\nTämä tyhjentää kaikki asetuksesi.</string>
@@ -491,13 +491,13 @@
     <string name="write_an_email">Kirjoita sähköposti</string>
     <string name="support_development">Tue kehitystä</string>
     <string name="help_with_translations">Auta käännösten kanssa</string>
-    <string name="help_with_translations_summary">Voit osallistua projektiin auttamalla kääntämään Booming Music muille kielille.</string>
+    <string name="help_with_translations_summary">Voit osallistua projektiin auttamalla kääntämään Geet Music muille kielille.</string>
     <string name="report_bugs">Ilmoita virheistä</string>
     <string name="report_bugs_summary">Ilmoita virheistä tai pyydä uusia ominaisuuksia.</string>
     <string name="share_app">Jaa tämä sovellus</string>
     <string name="share_app_summary">Voit auttaa tätä sovellusta kasvamaan, jos jaat sen ystäviesi kanssa.</string>
     <string name="send_invitation_message">Lähetä kutsu viesti</string>
-    <string name="invitation_message_content">Hei. Tsekkaa Booming Music! Paras sovellus kuunnella paikallista musiikkia Androidissa. Voit ladata sen täältä: %s</string>
+    <string name="invitation_message_content">Hei. Tsekkaa Geet Music! Paras sovellus kuunnella paikallista musiikkia Androidissa. Voit ladata sen täältä: %s</string>
     <!-- Bug report -->
     <string name="report_an_issue">Ilmoita ongelmasta</string>
     <string name="device_info">Laitteen tiedot</string>
@@ -505,7 +505,7 @@
     <string name="you_will_be_forwarded_to_the_issue_tracker_website">Sinut välitetään edelleen ongelman seurannan verkkosivuille.</string>
     <!-- SAF -->
     <string name="saf_access_required_title">Tallennustilan Käyttö Vaaditaan</string>
-    <string name="saf_access_required_message">Boomings vaatii oikeuden käyttää näitä tiedostoja. Ole hyvä ja valitse SD-kortin juurihakemisto.</string>
+    <string name="saf_access_required_message">Geets vaatii oikeuden käyttää näitä tiedostoja. Ole hyvä ja valitse SD-kortin juurihakemisto.</string>
     <string name="saf_show_files_button">Näytä tiedostot</string>
     <string name="saf_error_uri">SAF URI ei saa</string>
     <string name="saf_write_failed">Tiedoston kirjoittaminen epäonnistui: %s</string>
@@ -627,7 +627,7 @@
     <string name="online_artist_images_summary">Tämä riippuu metadatan latauskäytännöstäsi.</string>
     <string name="preferred_artist_image_size_title">Ensisijainen kuvan koko</string>
     <string name="delete_downloaded_lyrics_title">Poista ladatut sanoitukset</string>
-    <string name="delete_downloaded_lyrics_summary">Vain Booming Musicin lataamat sanoitukset. Ei vaikuta sanoituksiin, jotka on upotettu ID3v2-tageihin tai LRC-tiedostoihin.</string>
+    <string name="delete_downloaded_lyrics_summary">Vain Geet Musicin lataamat sanoitukset. Ei vaikuta sanoituksiin, jotka on upotettu ID3v2-tageihin tai LRC-tiedostoihin.</string>
     <string name="lyrics_cleared">Sanoitukset tyhjennetty.</string>
     <!-- Library preferences -->
     <string name="trash_music_title">Lähetä roskakoriin</string>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Base.Theme.Booming" parent="Theme.Material3.Dark.NoActionBar">
+    <style name="Base.Theme.Geet" parent="Theme.Material3.Dark.NoActionBar">
         <item name="colorPrimary">@color/md_theme_primary</item>
         <item name="colorOnPrimary">@color/md_theme_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_primaryContainer</item>
@@ -70,7 +70,7 @@
         <item name="defaultFooterColor">@color/footerDark</item>
     </style>
 
-    <style name="Base.Theme.Booming.Light" parent="Theme.Material3.Light.NoActionBar">
+    <style name="Base.Theme.Geet.Light" parent="Theme.Material3.Light.NoActionBar">
         <item name="colorPrimary">@color/md_theme_primary</item>
         <item name="colorOnPrimary">@color/md_theme_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_primaryContainer</item>
@@ -139,7 +139,7 @@
         <item name="defaultFooterColor">@color/footerLight</item>
     </style>
 
-    <style name="Base.Theme.Booming.Adaptive" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.Geet.Adaptive" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/md_theme_primary</item>
         <item name="colorOnPrimary">@color/md_theme_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_primaryContainer</item>
@@ -208,7 +208,7 @@
         <item name="defaultFooterColor">@color/footerLight</item>
     </style>
 
-    <style name="Base.Theme.Booming.Black">
+    <style name="Base.Theme.Geet.Black">
         <item name="colorSurface">@android:color/black</item>
         <item name="colorSurfaceContainer">#0B0B0B</item>
         <item name="android:windowBackground">?colorSurface</item>

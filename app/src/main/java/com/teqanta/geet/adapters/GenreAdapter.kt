@@ -35,7 +35,7 @@ import com.teqanta.geet.extensions.media.songsStr
 import com.teqanta.geet.extensions.resources.hide
 import com.teqanta.geet.extensions.resources.toColorStateList
 import com.teqanta.geet.extensions.resources.useAsIcon
-import com.teqanta.geet.glide.BoomingColoredTarget
+import com.teqanta.geet.glide.GeetColoredTarget
 import com.teqanta.geet.helper.color.MediaNotificationProcessor
 import com.teqanta.geet.interfaces.IGenreCallback
 import com.teqanta.geet.model.Genre
@@ -96,7 +96,7 @@ class GenreAdapter(
                 requestManager.asBitmapPalette()
                     .load(song.getSongGlideModel())
                     .songOptions(song)
-                    .into(object : BoomingColoredTarget(holder.image) {
+                    .into(object : GeetColoredTarget(holder.image) {
                         override fun onColorReady(colors: MediaNotificationProcessor) {
                             holder.setColors(colors)
                             if (holder.text != null) {

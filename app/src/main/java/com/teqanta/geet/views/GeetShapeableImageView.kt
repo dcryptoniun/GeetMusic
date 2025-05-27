@@ -25,14 +25,14 @@ import com.google.android.material.shape.CornerFamily
 import com.google.android.material.shape.ShapeAppearanceModel
 import com.teqanta.geet.R
 
-class BoomingShapeableImageView @JvmOverloads constructor(
+class GeetShapeableImageView @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
     defStyle: Int = -1
 ) : ShapeableImageView(context, attrs, defStyle) {
 
     init {
-        context.withStyledAttributes(attrs, R.styleable.BoomingShapeableImageView, defStyle, -1) {
+        context.withStyledAttributes(attrs, R.styleable.GeetShapeableImageView, defStyle, -1) {
             addOnLayoutChangeListener { _, _, _, _, _, _, _, _, _ ->
                 val radius = width / 2f
                 shapeAppearanceModel = ShapeAppearanceModel().withCornerSize(radius)

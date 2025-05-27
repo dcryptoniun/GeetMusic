@@ -62,7 +62,7 @@
             android:ellipsize="marquee"
             android:fadingEdge="horizontal"
             android:singleLine="true"
-            android:textAppearance="@style/TextAppearance.Booming.Notification.Title"
+            android:textAppearance="@style/TextAppearance.Geet.Notification.Title"
             tools:text="@tools:sample/lorem"/>
 
         <TextView
@@ -75,7 +75,7 @@
             android:ellipsize="marquee"
             android:fadingEdge="horizontal"
             android:singleLine="true"
-            android:textAppearance="@style/TextAppearance.Booming.Notification.Line2"
+            android:textAppearance="@style/TextAppearance.Geet.Notification.Line2"
             tools:text="@tools:sample/lorem"/>
 
         <TextView
@@ -87,7 +87,7 @@
             android:ellipsize="marquee"
             android:fadingEdge="horizontal"
             android:singleLine="true"
-            android:textAppearance="@style/TextAppearance.Booming.Notification.Line2"
+            android:textAppearance="@style/TextAppearance.Geet.Notification.Line2"
             tools:text="@tools:sample/lorem"/>
 
     </LinearLayout>

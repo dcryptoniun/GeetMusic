@@ -50,12 +50,12 @@
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Booming.FollowSystem"
+        android:theme="@style/Theme.Geet.FollowSystem"
         tools:ignore="UnusedAttribute">
         <activity
             android:name=".activities.MainActivity"
             android:launchMode="singleTop"
-            android:theme="@style/Theme.Booming.SplashScreen"
+            android:theme="@style/Theme.Geet.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

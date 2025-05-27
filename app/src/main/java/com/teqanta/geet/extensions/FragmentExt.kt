@@ -37,7 +37,7 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.transition.Fade
 import com.teqanta.geet.R
 import com.google.android.material.transition.MaterialSharedAxis
-import com.teqanta.geet.extensions.resources.createBoomingMusicBalloon
+import com.teqanta.geet.extensions.resources.createGeetMusicBalloon
 import com.skydoves.balloon.Balloon
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
@@ -76,9 +76,9 @@ inline fun Fragment.runOnUi(crossinline consumer: (View) -> Unit) {
 inline fun <T : Fragment> T.withArgs(argsBuilder: Bundle.() -> Unit): T =
     this.apply { arguments = Bundle().apply(argsBuilder) }
 
-inline fun Fragment.createBoomingMusicBalloon(
+inline fun Fragment.createGeetMusicBalloon(
     crossinline block: Balloon.Builder.() -> Unit
-) = requestContext { it.createBoomingMusicBalloon(viewLifecycleOwner, block = block) }
+) = requestContext { it.createGeetMusicBalloon(viewLifecycleOwner, block = block) }
 
 fun Fragment.plurals(resId: Int, quantity: Int) = requireContext().plurals(resId, quantity)
 

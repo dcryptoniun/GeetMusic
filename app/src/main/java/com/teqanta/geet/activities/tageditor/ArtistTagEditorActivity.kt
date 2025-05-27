@@ -32,7 +32,7 @@ import com.teqanta.geet.databinding.TagEditorArtistFieldBinding
 import com.teqanta.geet.extensions.glide.*
 import com.teqanta.geet.extensions.resources.getDrawableCompat
 import com.teqanta.geet.extensions.webSearch
-import com.teqanta.geet.glide.BoomingSimpleTarget
+import com.teqanta.geet.glide.GeetSimpleTarget
 import com.teqanta.geet.misc.TagWriter
 import org.jaudiotagger.tag.FieldKey
 import org.koin.androidx.viewmodel.ext.android.viewModel
@@ -69,7 +69,7 @@ class ArtistTagEditorActivity : AbsTagEditorActivity() {
                 .asBitmap()
                 .load(artist.getArtistGlideModel())
                 .artistOptions(artist)
-                .into(object : BoomingSimpleTarget<Bitmap?>() {
+                .into(object : GeetSimpleTarget<Bitmap?>() {
                     override fun onResourceReady(resource: Bitmap, transition: Transition<in Bitmap?>?) {
                         setImageBitmap(resource)
                     }

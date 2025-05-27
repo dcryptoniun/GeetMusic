@@ -149,7 +149,7 @@ class LyricsEditorFragment : AbsMainActivityFragment(R.layout.fragment_lyrics_ed
 
         val source = lyrics.sources[type]
         if (source != null && source.canShowHelp(requireContext())) {
-            val balloon = createBoomingMusicBalloon {
+            val balloon = createGeetMusicBalloon {
                 setDismissWhenClicked(true)
                 setText(getString(source.descriptionRes))
             }

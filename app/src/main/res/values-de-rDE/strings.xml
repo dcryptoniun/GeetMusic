@@ -126,7 +126,7 @@
     <string name="permission_exact_alarms_description">Die Erlaubnis, genaue Erinnerungen zu planen, ist erforderlich, damit der Schlaf-Timer richtig funktioniert</string>
     <string name="permission_ringtone_title">Klingelton (optional)</string>
     <string name="permission_ringtone_description">Die App benötigt die Berechtigung, auf Ihre Geräte-Einstellungen zuzugreifen, um Musik als Klingelton festlegen zu können</string>
-    <string name="permission_request_write_settings"><![CDATA[Du musst Booming Music erlauben, die Systemeinstellungen zu ändern, um <b>%s</b> als Klingelton zu setzen]]></string>
+    <string name="permission_request_write_settings"><![CDATA[Du musst Geet Music erlauben, die Systemeinstellungen zu ändern, um <b>%s</b> als Klingelton zu setzen]]></string>
     <string name="permissions_denied">Berechtigungen verweigert</string>
     <string name="permissions_needed">Benötigte Berechtigungen</string>
     <string name="grant_access_action">Zugriff gewähren</string>
@@ -397,7 +397,7 @@
     <string name="reset_equalizer">Reset equalizer</string>
     <string name="select_configurations_to_export">Zu exportierende Konfigurationen auswählen:</string>
     <string name="select_a_file_to_save_exported_configurations">Wählen Sie eine Datei aus, um die exportierten Konfigurationen zu speichern.</string>
-    <string name="select_a_file_containing_booming_eq_presets">Wählen Sie eine Datei, die Booming Music EQ Presets enthält.</string>
+    <string name="select_a_file_containing_booming_eq_presets">Wählen Sie eine Datei, die Geet Music EQ Presets enthält.</string>
     <string name="select_configurations_to_import">Zu importierende Konfigurationen auswählen:</string>
     <string name="are_you_sure_you_want_to_reset_the_equalizer">Sind Sie sicher, dass Sie den Equalizer zurücksetzen möchten?
         \n\nDies wird alle Ihre Voreinstellungen löschen.</string>
@@ -449,7 +449,7 @@
     <string name="import_lyrics_for_song_x">Importierte Songtexte für %s</string>
     <string name="could_not_import_lyrics_for_song_x">Konnte Songtexte für %s nicht importieren</string>
     <string name="select_a_file_containing_synchronized_lyrics">Wählen Sie eine LRC-Datei mit synchronisierten Songtexten.</string>
-    <string name="cannot_download_lyrics">Booming Music konnte den Songtext für dieses Lied nicht finden. Möchtest du manuell suchen?</string>
+    <string name="cannot_download_lyrics">Geet Music konnte den Songtext für dieses Lied nicht finden. Möchtest du manuell suchen?</string>
     <string name="search_lyrics">Songtext suchen</string>
     <string name="choose_lyrics">Wähle die Art der Songtexte</string>
     <string name="download_lyrics">Liedtexte herunterladen</string>
@@ -491,13 +491,13 @@
     <string name="write_an_email">E-Mail schreiben</string>
     <string name="support_development">Entwicklung unterstützen</string>
     <string name="help_with_translations">Hilfe bei Übersetzungen</string>
-    <string name="help_with_translations_summary">Du kannst zum Projekt beitragen, indem du dabei hilfst, Booming Music in andere Sprachen zu übersetzen.</string>
+    <string name="help_with_translations_summary">Du kannst zum Projekt beitragen, indem du dabei hilfst, Geet Music in andere Sprachen zu übersetzen.</string>
     <string name="report_bugs">Fehler melden</string>
     <string name="report_bugs_summary">Melde Fehler oder fordere neue Funktionen an.</string>
     <string name="share_app">Diese App teilen</string>
     <string name="share_app_summary">Du kannst dieser App helfen, zu wachsen, wenn du sie mit Freunden teilst.</string>
     <string name="send_invitation_message">Einladungsnachricht senden</string>
-    <string name="invitation_message_content">Hallo. Sieh dir Booming Musik an! Die beste App um lokale Musik auf Android anzuhören. Du kannst sie hier herunterladen: %s</string>
+    <string name="invitation_message_content">Hallo. Sieh dir Geet Musik an! Die beste App um lokale Musik auf Android anzuhören. Du kannst sie hier herunterladen: %s</string>
     <!-- Bug report -->
     <string name="report_an_issue">Ein Problem melden</string>
     <string name="device_info">Geräteinfo</string>
@@ -505,7 +505,7 @@
     <string name="you_will_be_forwarded_to_the_issue_tracker_website">Sie werden auf die Issue-Tracker Website weitergeleitet.</string>
     <!-- SAF -->
     <string name="saf_access_required_title">Speicherzugriff erforderlich</string>
-    <string name="saf_access_required_message">Boomings benötigen die Berechtigung, auf diese Dateien zuzugreifen. Bitte wählen Sie das Stammverzeichnis der SD-Karte.</string>
+    <string name="saf_access_required_message">Geets benötigen die Berechtigung, auf diese Dateien zuzugreifen. Bitte wählen Sie das Stammverzeichnis der SD-Karte.</string>
     <string name="saf_show_files_button">Dateien anzeigen</string>
     <string name="saf_error_uri">SAF-URI kann nicht geladen werden</string>
     <string name="saf_write_failed">Datei schreiben fehlgeschlagen: %s</string>
@@ -528,7 +528,7 @@
     <string name="update_title">Aktualisieren</string>
     <string name="update_summary">Einstellungen für App-Updates.</string>
     <string name="about_title">Über</string>
-    <string name="about_summary">Booming Musik %s, Berühren für weitere Infos.</string>
+    <string name="about_summary">Geet Musik %s, Berühren für weitere Infos.</string>
     <!-- Preference headers -->
     <string name="general_header">Allgemein</string>
     <string name="library_header">Bibliothek</string>
@@ -627,7 +627,7 @@
     <string name="online_artist_images_summary">Dies hängt von Ihrer Metadaten-Download-Richtlinie ab.</string>
     <string name="preferred_artist_image_size_title">Bevorzugte Bildgröße</string>
     <string name="delete_downloaded_lyrics_title">Heruntergeladene Songtexte löschen</string>
-    <string name="delete_downloaded_lyrics_summary">Nur Songtexte, die von Booming Music heruntergeladen wurden. Hat keinen Einfluss auf Songtexte, die in ID3v2-Tags oder LRC-Dateien eingebettet sind.</string>
+    <string name="delete_downloaded_lyrics_summary">Nur Songtexte, die von Geet Music heruntergeladen wurden. Hat keinen Einfluss auf Songtexte, die in ID3v2-Tags oder LRC-Dateien eingebettet sind.</string>
     <string name="lyrics_cleared">Songtext gelöscht.</string>
     <!-- Library preferences -->
     <string name="trash_music_title">In den Papierkorb senden</string>
@@ -733,8 +733,8 @@
     <string name="update_available_title">Update verfügbar</string>
     <string name="more_info_action">Mehr Info.</string>
     <string name="download_action">Download</string>
-    <string name="downloading_update">Download des Booming Music Updates.</string>
-    <string name="downloaded_update_name">Booming Musik %s (Tippen zum Installieren)</string>
+    <string name="downloading_update">Download des Geet Music Updates.</string>
+    <string name="downloaded_update_name">Geet Musik %s (Tippen zum Installieren)</string>
     <string name="uncaught_error_title">Unerwarteter Fehler aufgetreten</string>
     <string name="uncaught_error_message">Entschuldigen Sie die Unannehmlichkeiten. Sie können den Fehlerbericht überprüfen und die App neu starten.</string>
     <string name="uncaught_error_restart_app">App neu starten</string>

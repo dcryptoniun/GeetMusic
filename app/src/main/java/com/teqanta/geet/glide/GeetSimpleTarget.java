@@ -28,18 +28,18 @@ import com.bumptech.glide.request.target.Target;
 import com.bumptech.glide.request.transition.Transition;
 import com.bumptech.glide.util.Util;
 
-public class BoomingSimpleTarget<T> implements Target<T> {
+public class GeetSimpleTarget<T> implements Target<T> {
 
     private final int width;
     private final int height;
 
     private Request request;
 
-    public BoomingSimpleTarget() {
+    public GeetSimpleTarget() {
         this(SIZE_ORIGINAL, SIZE_ORIGINAL);
     }
 
-    public BoomingSimpleTarget(int width, int height) {
+    public GeetSimpleTarget(int width, int height) {
         this.width = width;
         this.height = height;
     }

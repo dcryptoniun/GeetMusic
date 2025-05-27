@@ -126,7 +126,7 @@
     <string name="permission_exact_alarms_description">Дозвіл, щоб запланувати точні сигнали для правильної роботи таймера сну</string>
     <string name="permission_ringtone_title">Мелодія (необов\'язково)</string>
     <string name="permission_ringtone_description">Додатку потрібен дозвіл на доступ до налаштувань вашого пристрою для того, щоб встановити музику як рінгтон</string>
-    <string name="permission_request_write_settings"><![CDATA[You must allow Booming Music to modify the system settings in order to set <b>%s</b> as your ringtone]]></string>
+    <string name="permission_request_write_settings"><![CDATA[You must allow Geet Music to modify the system settings in order to set <b>%s</b> as your ringtone]]></string>
     <string name="permissions_denied">Дозволи відмовлено</string>
     <string name="permissions_needed">Потрібні дозволи</string>
     <string name="grant_access_action">Надати доступ</string>
@@ -411,7 +411,7 @@
     <string name="reset_equalizer">Reset equalizer</string>
     <string name="select_configurations_to_export">Виберіть конфігурації для експорту:</string>
     <string name="select_a_file_to_save_exported_configurations">Виберіть файл для збереження збережених конфігурацій.</string>
-    <string name="select_a_file_containing_booming_eq_presets">Виберіть файл, що містить пресети Booming Music EQ.</string>
+    <string name="select_a_file_containing_booming_eq_presets">Виберіть файл, що містить пресети Geet Music EQ.</string>
     <string name="select_configurations_to_import">Виберіть конфігурації для імпорту:</string>
     <string name="are_you_sure_you_want_to_reset_the_equalizer">Are you sure you want to reset the equalizer?
         \n\nThis will clear all your presets.</string>
@@ -511,7 +511,7 @@
     <string name="share_app">Поділитися цим додатком</string>
     <string name="share_app_summary">Ви можете допомогти цьому додатку зрости, якщо хочете поділитися ним з друзями.</string>
     <string name="send_invitation_message">Надіслати запрошення</string>
-    <string name="invitation_message_content">Привіт. Спробуйте Booming Music! Кращий додаток, щоб слухати локальну музику на Android. Ви можете завантажити її тут: %s</string>
+    <string name="invitation_message_content">Привіт. Спробуйте Geet Music! Кращий додаток, щоб слухати локальну музику на Android. Ви можете завантажити її тут: %s</string>
     <!-- Bug report -->
     <string name="report_an_issue">Повідомити про проблему</string>
     <string name="device_info">Інформація про пристрій</string>
@@ -542,7 +542,7 @@
     <string name="update_title">Оновити</string>
     <string name="update_summary">Налаштування для оновлення додатків.</string>
     <string name="about_title">Про програму</string>
-    <string name="about_summary">Booming Music %s, touch for more info.</string>
+    <string name="about_summary">Geet Music %s, touch for more info.</string>
     <!-- Preference headers -->
     <string name="general_header">Загальні налаштування</string>
     <string name="library_header">Бібліотека</string>
@@ -641,7 +641,7 @@
     <string name="online_artist_images_summary">Це залежить від вашої політики завантаження метаданих.</string>
     <string name="preferred_artist_image_size_title">Бажаний розмір зображення</string>
     <string name="delete_downloaded_lyrics_title">Видалити завантажені тексти пісень</string>
-    <string name="delete_downloaded_lyrics_summary">Тільки слова пісні завантажені Booming Music. Не впливає на вбудовані в файли ID3v2 теги або LRC файли.</string>
+    <string name="delete_downloaded_lyrics_summary">Тільки слова пісні завантажені Geet Music. Не впливає на вбудовані в файли ID3v2 теги або LRC файли.</string>
     <string name="lyrics_cleared">Текст видалено.</string>
     <!-- Library preferences -->
     <string name="trash_music_title">Відправити до смітника</string>
@@ -747,7 +747,7 @@
     <string name="update_available_title">Доступне оновлення</string>
     <string name="more_info_action">Більше інформації.</string>
     <string name="download_action">Звантажити</string>
-    <string name="downloading_update">Завантаження оновлення Booming Музики.</string>
+    <string name="downloading_update">Завантаження оновлення Geet Музики.</string>
     <string name="downloaded_update_name">Їзда музики %s (Натисніть, щоб встановити)</string>
     <string name="uncaught_error_title">Сталась непередбачена помилка</string>
     <string name="uncaught_error_message">Вибачте за незручності. Ви можете переглянути звіт про помилку та перезапустити додаток.</string>

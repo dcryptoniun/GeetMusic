@@ -23,7 +23,7 @@ import com.teqanta.geet.glide.palette.BitmapPaletteTarget
 import com.teqanta.geet.glide.palette.BitmapPaletteWrapper
 import com.teqanta.geet.helper.color.MediaNotificationProcessor
 
-abstract class BoomingColoredTarget(view: ImageView) : BitmapPaletteTarget(view) {
+abstract class GeetColoredTarget(view: ImageView) : BitmapPaletteTarget(view) {
 
     protected val defaultFooterColor: Int
         get() = getView().context.defaultFooterColor()

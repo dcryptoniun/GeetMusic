@@ -126,7 +126,7 @@
     <string name="permission_exact_alarms_description">Pro správné fungování časovače spánku je vyžadováno oprávnění naplánovat přesné výstrahy</string>
     <string name="permission_ringtone_title">Vyzvánění (volitelné)</string>
     <string name="permission_ringtone_description">Aplikace potřebuje oprávnění pro přístup k nastavení zařízení pro nastavení hudby jako vyzvánění</string>
-    <string name="permission_request_write_settings"><![CDATA[Musíš povolit Booming Music měnit nastavení systému, aby jsi mohl nastavit <b>%s</b> jako vyzváněcí tón]]></string>
+    <string name="permission_request_write_settings"><![CDATA[Musíš povolit Geet Music měnit nastavení systému, aby jsi mohl nastavit <b>%s</b> jako vyzváněcí tón]]></string>
     <string name="permissions_denied">Oprávnění odepřena</string>
     <string name="permissions_needed">Potřebná oprávnění</string>
     <string name="grant_access_action">Povolit přístup</string>
@@ -463,7 +463,7 @@
     <string name="import_lyrics_for_song_x">Importován text pro %s</string>
     <string name="could_not_import_lyrics_for_song_x">Nelze importovat texty pro %s</string>
     <string name="select_a_file_containing_synchronized_lyrics">Vyberte soubor LRC obsahující synchronizované texty.</string>
-    <string name="cannot_download_lyrics">Booming hudba nenalezla text pro tuto skladbu. Chcete hledat ručně?</string>
+    <string name="cannot_download_lyrics">Geet hudba nenalezla text pro tuto skladbu. Chcete hledat ručně?</string>
     <string name="search_lyrics">Hledat texty</string>
     <string name="choose_lyrics">Vyberte typ textů</string>
     <string name="download_lyrics">Stáhnout texty</string>
@@ -505,13 +505,13 @@
     <string name="write_an_email">Napsat e-mail</string>
     <string name="support_development">Podpořte vývoj</string>
     <string name="help_with_translations">Pomoc s překlady</string>
-    <string name="help_with_translations_summary">Můžete přispět k projektu tím, že pomůžete přeložit hudbu Booming do jiných jazyků.</string>
+    <string name="help_with_translations_summary">Můžete přispět k projektu tím, že pomůžete přeložit hudbu Geet do jiných jazyků.</string>
     <string name="report_bugs">Nahlásit chyby</string>
     <string name="report_bugs_summary">Nahlásit chyby nebo požádat o nové funkce.</string>
     <string name="share_app">Sdílet tuto aplikaci</string>
     <string name="share_app_summary">Můžete pomoci této aplikaci růst, pokud ji sdílíte s přáteli.</string>
     <string name="send_invitation_message">Odeslat pozvánku</string>
-    <string name="invitation_message_content">Ahoj. Podívejte se na Booming Musice! Nejlepší aplikace pro poslech místní hudby na Android. Můžete si ji stáhnout zde: %s</string>
+    <string name="invitation_message_content">Ahoj. Podívejte se na Geet Musice! Nejlepší aplikace pro poslech místní hudby na Android. Můžete si ji stáhnout zde: %s</string>
     <!-- Bug report -->
     <string name="report_an_issue">Nahlásit problém</string>
     <string name="device_info">Informace o zařízení</string>
@@ -519,7 +519,7 @@
     <string name="you_will_be_forwarded_to_the_issue_tracker_website">Budete přesměrováni na webovou stránku pro sledování problémů.</string>
     <!-- SAF -->
     <string name="saf_access_required_title">Vyžadován přístup k úložišti</string>
-    <string name="saf_access_required_message">Booming vyžaduje oprávnění pro přístup k těmto souborům. Vyberte kořenový adresář SD karty.</string>
+    <string name="saf_access_required_message">Geet vyžaduje oprávnění pro přístup k těmto souborům. Vyberte kořenový adresář SD karty.</string>
     <string name="saf_show_files_button">Zobrazit soubory</string>
     <string name="saf_error_uri">Nelze získat SAF URI</string>
     <string name="saf_write_failed">Zápis souboru se nezdařil: %s</string>
@@ -641,7 +641,7 @@
     <string name="online_artist_images_summary">To závisí na zásadách stahování metadat.</string>
     <string name="preferred_artist_image_size_title">Upřednostňovaná velikost obrázku</string>
     <string name="delete_downloaded_lyrics_title">Odstranit stažené texty</string>
-    <string name="delete_downloaded_lyrics_summary">Pouze texty stažené z Booming Music. Nemá vliv na texty vložené do ID3v2 značek nebo LRC souborů.</string>
+    <string name="delete_downloaded_lyrics_summary">Pouze texty stažené z Geet Music. Nemá vliv na texty vložené do ID3v2 značek nebo LRC souborů.</string>
     <string name="lyrics_cleared">Texty vymazány.</string>
     <!-- Library preferences -->
     <string name="trash_music_title">Odeslat do koše</string>
@@ -747,7 +747,7 @@
     <string name="update_available_title">K dispozici je aktualizace</string>
     <string name="more_info_action">Další informace.</string>
     <string name="download_action">Stáhnout</string>
-    <string name="downloading_update">Stahování Booming aktualizace hudby.</string>
+    <string name="downloading_update">Stahování Geet aktualizace hudby.</string>
     <string name="downloaded_update_name">Boomování hudby %s (ap k instalaci)</string>
     <string name="uncaught_error_title">Došlo k neočekávané chybě</string>
     <string name="uncaught_error_message">Omlouváme se za nepříjemnosti. Můžete zkontrolovat zprávu o chybách a restartovat aplikaci.</string>

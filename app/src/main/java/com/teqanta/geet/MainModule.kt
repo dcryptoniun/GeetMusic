@@ -22,7 +22,7 @@ import androidx.room.Room
 import com.teqanta.geet.activities.tageditor.TagEditorViewModel
 import com.teqanta.geet.androidauto.AutoMusicProvider
 import com.teqanta.geet.audio.SoundSettings
-import com.teqanta.geet.database.BoomingDatabase
+import com.teqanta.geet.database.GeetDatabase
 import com.teqanta.geet.fragments.LibraryViewModel
 import com.teqanta.geet.fragments.albums.AlbumDetailViewModel
 import com.teqanta.geet.fragments.artists.ArtistDetailViewModel
@@ -103,28 +103,28 @@ private val mainModule = module {
 
 private val roomModule = module {
     single {
-        Room.databaseBuilder(androidContext(), BoomingDatabase::class.java, "music_database.db")
+        Room.databaseBuilder(androidContext(), GeetDatabase::class.java, "music_database.db")
             .build()
     }
 
     factory {
-        get<BoomingDatabase>().playlistDao()
+        get<GeetDatabase>().playlistDao()
     }
 
     factory {
-        get<BoomingDatabase>().playCountDao()
+        get<GeetDatabase>().playCountDao()
     }
 
     factory {
-        get<BoomingDatabase>().historyDao()
+        get<GeetDatabase>().historyDao()
     }
 
     factory {
-        get<BoomingDatabase>().inclExclDao()
+        get<GeetDatabase>().inclExclDao()
     }
 
     factory {
-        get<BoomingDatabase>().lyricsDao()
+        get<GeetDatabase>().lyricsDao()
     }
 }
 

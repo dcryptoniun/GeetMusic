@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "BoomingMusic"
+rootProject.name = "GeetMusic"
 include(":app")

@@ -133,7 +133,7 @@ class ShareStoryDialog : DialogFragment() {
     }
 
     companion object {
-        private const val BOOMING_STORIES_DIR_NAME = "Booming Design"
+        private const val BOOMING_STORIES_DIR_NAME = "Geet Design"
         private const val STORY_MIME_TYPE = "image/jpeg"
 
         fun create(song: Song) = ShareStoryDialog().withArgs {

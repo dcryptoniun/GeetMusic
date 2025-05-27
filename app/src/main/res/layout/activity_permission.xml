@@ -31,7 +31,7 @@
         android:maxLines="2"
         android:textAppearance="?textAppearanceHeadline6"
         android:textColor="?android:textColorSecondary"
-        tools:text="Welcome to Booming Music"
+        tools:text="Welcome to Geet Music"
         app:layout_constraintTop_toBottomOf="@+id/hello_label"
         app:layout_constraintStart_toStartOf="@+id/hello_label"
         app:layout_constraintEnd_toEndOf="@+id/hello_label"/>

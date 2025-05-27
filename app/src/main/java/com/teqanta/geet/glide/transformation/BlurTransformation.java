@@ -40,7 +40,7 @@ import com.teqanta.geet.helper.StackBlur;
 import java.security.MessageDigest;
 
 public class BlurTransformation extends BitmapTransformation {
-    private static final String ID = "Booming.Glide.BlurTransformation";
+    private static final String ID = "Geet.Glide.BlurTransformation";
 
     private static final float DEFAULT_BLUR_RADIUS = 15f;
 

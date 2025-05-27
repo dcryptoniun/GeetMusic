@@ -26,7 +26,7 @@ import androidx.palette.graphics.Palette;
 import java.util.Collections;
 import java.util.Comparator;
 
-public class BoomingColorUtil {
+public class GeetColorUtil {
 
     @Nullable
     public static Palette generatePalette(@Nullable Bitmap bitmap) {

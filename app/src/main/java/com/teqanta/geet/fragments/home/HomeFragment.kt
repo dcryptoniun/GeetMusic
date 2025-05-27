@@ -125,7 +125,7 @@ class HomeFragment : AbsMainActivityFragment(R.layout.fragment_home),
             findNavController().navigate(R.id.nav_search, null, navOptions)
         }
         val hexColor = String.format("#%06X", 0xFFFFFF and primaryColor())
-        val appName = "Booming <font color=$hexColor>Music</font>".toHtml()
+        val appName = "Geet <font color=$hexColor>Music</font>".toHtml()
         binding.appBarLayout.title = appName
     }
 

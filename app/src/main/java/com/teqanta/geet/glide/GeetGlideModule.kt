@@ -34,7 +34,7 @@ import com.teqanta.geet.glide.playlistPreview.PlaylistPreviewLoader
 import java.io.InputStream
 
 @GlideModule
-class BoomingGlideModule : AppGlideModule() {
+class GeetGlideModule : AppGlideModule() {
 
     override fun registerComponents(context: Context, glide: Glide, registry: Registry) {
         registry.append(PlaylistPreview::class.java, Bitmap::class.java, PlaylistPreviewLoader.Factory(context))

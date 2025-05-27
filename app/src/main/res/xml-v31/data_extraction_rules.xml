@@ -5,7 +5,7 @@
         <include domain="database" path="song_play_count.db"/>
         <include domain="database" path="history.db"/>
 
-        <include domain="sharedpref" path="BoomingAudioFX.xml"/>
+        <include domain="sharedpref" path="GeetAudioFX.xml"/>
 
         <exclude domain="database" path="music_playback_state.db"/>
         <exclude domain="sharedpref" path="artist_signatures.xml"/>

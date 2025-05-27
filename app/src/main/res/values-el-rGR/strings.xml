@@ -126,7 +126,7 @@
     <string name="permission_exact_alarms_description">Άδεια για τον προγραμματισμό ακριβών ειδοποιήσεων απαιτείται για το χρονόμετρο ύπνου για να λειτουργήσει σωστά</string>
     <string name="permission_ringtone_title">Ήχος Κλήσης (Προαιρετικό)</string>
     <string name="permission_ringtone_description">Η εφαρμογή χρειάζεται άδεια για να αποκτήσει πρόσβαση στις ρυθμίσεις της συσκευής σας για να ορίσει τη μουσική ως ήχος κλήσης</string>
-    <string name="permission_request_write_settings"><![CDATA[Πρέπει να επιτρέψετε στο Booming Music να τροποποιήσει τις ρυθμίσεις συστήματος για να ορίσετε ως ήχο κλήσης σας <b>%s</b>]]></string>
+    <string name="permission_request_write_settings"><![CDATA[Πρέπει να επιτρέψετε στο Geet Music να τροποποιήσει τις ρυθμίσεις συστήματος για να ορίσετε ως ήχο κλήσης σας <b>%s</b>]]></string>
     <string name="permissions_denied">Άρνηση δικαιωμάτων</string>
     <string name="permissions_needed">Απαιτούνται δικαιώματα</string>
     <string name="grant_access_action">Παραχώρηση πρόσβασης</string>
@@ -397,7 +397,7 @@
     <string name="reset_equalizer">Reset equalizer</string>
     <string name="select_configurations_to_export">Επιλέξτε διαμορφώσεις για εξαγωγή:</string>
     <string name="select_a_file_to_save_exported_configurations">Επιλέξτε ένα αρχείο για να αποθηκεύσετε τις εξαγόμενες ρυθμίσεις.</string>
-    <string name="select_a_file_containing_booming_eq_presets">Επιλέξτε ένα αρχείο που περιέχει τις προεπιλογές Booming Music EQ.</string>
+    <string name="select_a_file_containing_booming_eq_presets">Επιλέξτε ένα αρχείο που περιέχει τις προεπιλογές Geet Music EQ.</string>
     <string name="select_configurations_to_import">Επιλέξτε ρυθμίσεις για εισαγωγή:</string>
     <string name="are_you_sure_you_want_to_reset_the_equalizer">Are you sure you want to reset the equalizer?
         \n\nThis will clear all your presets.</string>
@@ -491,13 +491,13 @@
     <string name="write_an_email">Γράψτε ένα email</string>
     <string name="support_development">Ανάπτυξη υποστήριξης</string>
     <string name="help_with_translations">Βοήθεια για μεταφράσεις</string>
-    <string name="help_with_translations_summary">Μπορείτε να συνεισφέρετε στο έργο βοηθώντας στη μετάφραση της Booming Music σε άλλες γλώσσες.</string>
+    <string name="help_with_translations_summary">Μπορείτε να συνεισφέρετε στο έργο βοηθώντας στη μετάφραση της Geet Music σε άλλες γλώσσες.</string>
     <string name="report_bugs">Αναφορά σφαλμάτων</string>
     <string name="report_bugs_summary">Αναφέρετε σφάλματα ή ζητήστε νέα χαρακτηριστικά.</string>
     <string name="share_app">Μοιραστείτε την εφαρμογή</string>
     <string name="share_app_summary">Μπορείτε να βοηθήσετε την ανάπτυξη αυτής της εφαρμογής, αν την μοιραστείτε με φίλους.</string>
     <string name="send_invitation_message">Αποστολή μηνύματος πρόσκλησης</string>
-    <string name="invitation_message_content">Γεια σας. Ρίξτε μια ματιά στο Booming Music! Η καλύτερη εφαρμογή για να ακούσετε τοπική μουσική στο Android. Μπορείτε να το κατεβάσετε από εδώ: %s</string>
+    <string name="invitation_message_content">Γεια σας. Ρίξτε μια ματιά στο Geet Music! Η καλύτερη εφαρμογή για να ακούσετε τοπική μουσική στο Android. Μπορείτε να το κατεβάσετε από εδώ: %s</string>
     <!-- Bug report -->
     <string name="report_an_issue">Αναφορά προβλήματος</string>
     <string name="device_info">Πληροφορίες συσκευής</string>
@@ -505,7 +505,7 @@
     <string name="you_will_be_forwarded_to_the_issue_tracker_website">Θα μεταφερθείτε στην ιστοσελίδα του ανιχνευτή προβλημάτων.</string>
     <!-- SAF -->
     <string name="saf_access_required_title">Απαιτείται Πρόσβαση Χώρου Αποθήκευσης</string>
-    <string name="saf_access_required_message">Τα Boomings απαιτούν άδεια πρόσβασης σε αυτά τα αρχεία. Παρακαλώ επιλέξτε τον ριζικό κατάλογο της κάρτας SD.</string>
+    <string name="saf_access_required_message">Τα Geets απαιτούν άδεια πρόσβασης σε αυτά τα αρχεία. Παρακαλώ επιλέξτε τον ριζικό κατάλογο της κάρτας SD.</string>
     <string name="saf_show_files_button">Εμφάνιση αρχείων</string>
     <string name="saf_error_uri">Αδύνατη η λήψη του URI SAF</string>
     <string name="saf_write_failed">Αποτυχία εγγραφής αρχείου: %s</string>
@@ -627,7 +627,7 @@
     <string name="online_artist_images_summary">Αυτό εξαρτάται από την πολιτική μεταδεδομένων λήψης.</string>
     <string name="preferred_artist_image_size_title">Προτιμώμενο μέγεθος εικόνας</string>
     <string name="delete_downloaded_lyrics_title">Διαγραφή ληφθέντων στίχων</string>
-    <string name="delete_downloaded_lyrics_summary">Μόνο στίχοι που λήφθηκαν από το Booming Music. Δεν επηρεάζει τους στίχους που είναι ενσωματωμένοι σε ετικέτες ID3v2 ή αρχεία LRC.</string>
+    <string name="delete_downloaded_lyrics_summary">Μόνο στίχοι που λήφθηκαν από το Geet Music. Δεν επηρεάζει τους στίχους που είναι ενσωματωμένοι σε ετικέτες ID3v2 ή αρχεία LRC.</string>
     <string name="lyrics_cleared">Οι στίχοι καθαρίστηκαν.</string>
     <!-- Library preferences -->
     <string name="trash_music_title">Αποστολή στον κάδο απορριμμάτων</string>
@@ -733,7 +733,7 @@
     <string name="update_available_title">Διαθέσιμη ενημέρωση</string>
     <string name="more_info_action">Περισσότερες πληροφορίες.</string>
     <string name="download_action">Λήψη</string>
-    <string name="downloading_update">Λήψη ενημέρωσης Booming Music</string>
+    <string name="downloading_update">Λήψη ενημέρωσης Geet Music</string>
     <string name="downloaded_update_name">Αύξηση Μουσικής %s (Ταπ Εγκατάστασης)</string>
     <string name="uncaught_error_title">Παρουσιάστηκε ένα μη αναμενόμενο σφάλμα</string>
     <string name="uncaught_error_message">Συγγνώμη για την ταλαιπωρία. Μπορείτε να αναθεωρήσετε την αναφορά σφάλματος και να επανεκκινήσετε την εφαρμογή.</string>

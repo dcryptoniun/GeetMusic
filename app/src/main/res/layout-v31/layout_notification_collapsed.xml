@@ -35,7 +35,7 @@
             android:ellipsize="end"
             android:lines="1"
             android:singleLine="true"
-            android:textAppearance="@style/TextAppearance.Booming.Notification.Title"
+            android:textAppearance="@style/TextAppearance.Geet.Notification.Title"
             android:textStyle="bold"
             tools:text="@tools:sample/lorem/random"/>
 
@@ -46,7 +46,7 @@
             android:ellipsize="end"
             android:lines="1"
             android:singleLine="true"
-            android:textAppearance="@style/TextAppearance.Booming.Notification.Line2"
+            android:textAppearance="@style/TextAppearance.Geet.Notification.Line2"
             tools:text="@tools:sample/lorem/random"/>
 
     </LinearLayout>

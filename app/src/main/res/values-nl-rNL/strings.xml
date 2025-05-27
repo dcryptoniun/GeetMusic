@@ -126,7 +126,7 @@
     <string name="permission_exact_alarms_description">Toestemming om exacte alarmen in te stellen is vereist om de slaaptimer goed te laten werken</string>
     <string name="permission_ringtone_title">Beltoon (optioneel)</string>
     <string name="permission_ringtone_description">De app heeft toestemming nodig om toegang te krijgen tot uw apparaatinstellingen om muziek als Ringtone in te stellen</string>
-    <string name="permission_request_write_settings"><![CDATA[Je moet toestaan dat Booming Muziek de systeeminstellingen wijzigt om <b>%s</b> in te stellen als je beltoon]]></string>
+    <string name="permission_request_write_settings"><![CDATA[Je moet toestaan dat Geet Muziek de systeeminstellingen wijzigt om <b>%s</b> in te stellen als je beltoon]]></string>
     <string name="permissions_denied">Permissies geweigerd</string>
     <string name="permissions_needed">Machtigingen vereist</string>
     <string name="grant_access_action">Toegang verlenen</string>
@@ -397,7 +397,7 @@
     <string name="reset_equalizer">Reset equalizer</string>
     <string name="select_configurations_to_export">Selecteer te exporteren configuraties:</string>
     <string name="select_a_file_to_save_exported_configurations">Selecteer een bestand om geëxporteerde configuraties op te slaan.</string>
-    <string name="select_a_file_containing_booming_eq_presets">Selecteer een bestand dat Booming Muziek EQ voorinstellingen bevat.</string>
+    <string name="select_a_file_containing_booming_eq_presets">Selecteer een bestand dat Geet Muziek EQ voorinstellingen bevat.</string>
     <string name="select_configurations_to_import">Selecteer te importeren configuraties:</string>
     <string name="are_you_sure_you_want_to_reset_the_equalizer">Weet je zeker dat je de equalizer wilt resetten?
         \n\nDit zal al je presets wissen.</string>
@@ -491,13 +491,13 @@
     <string name="write_an_email">Schrijf een email</string>
     <string name="support_development">Ondersteun ontwikkeling</string>
     <string name="help_with_translations">Help met vertalingen</string>
-    <string name="help_with_translations_summary">Je kunt bijdragen aan het project door Booming Music naar andere talen te vertalen.</string>
+    <string name="help_with_translations_summary">Je kunt bijdragen aan het project door Geet Music naar andere talen te vertalen.</string>
     <string name="report_bugs">Meld bugs</string>
     <string name="report_bugs_summary">Rapporteer bugs of verzoek nieuwe functies.</string>
     <string name="share_app">Deel deze app</string>
     <string name="share_app_summary">U kunt deze app helpen groeien als u het met vrienden deelt.</string>
     <string name="send_invitation_message">Stuur uitnodigingsbericht</string>
-    <string name="invitation_message_content">Hoi. Bekijk Booming Music! De beste app om lokale muziek te beluisteren op Android. Je kunt deze hier downloaden: %s</string>
+    <string name="invitation_message_content">Hoi. Bekijk Geet Music! De beste app om lokale muziek te beluisteren op Android. Je kunt deze hier downloaden: %s</string>
     <!-- Bug report -->
     <string name="report_an_issue">Meld een probleem</string>
     <string name="device_info">Apparaat info</string>
@@ -505,7 +505,7 @@
     <string name="you_will_be_forwarded_to_the_issue_tracker_website">U wordt doorgestuurd naar de issue tracker website.</string>
     <!-- SAF -->
     <string name="saf_access_required_title">Opslagtoegang vereist</string>
-    <string name="saf_access_required_message">Boomings vereist toestemming voor toegang tot deze bestanden. Kies de hoofdmap van de SD kaart.</string>
+    <string name="saf_access_required_message">Geets vereist toestemming voor toegang tot deze bestanden. Kies de hoofdmap van de SD kaart.</string>
     <string name="saf_show_files_button">Bestanden weergeven</string>
     <string name="saf_error_uri">Kan geen SAF URI verkrijgen</string>
     <string name="saf_write_failed">Bestand schrijven mislukt: %s</string>
@@ -627,7 +627,7 @@
     <string name="online_artist_images_summary">Dit hangt af van uw metadata downloadbeleid.</string>
     <string name="preferred_artist_image_size_title">Gewenste afbeeldingsgrootte</string>
     <string name="delete_downloaded_lyrics_title">Verwijder gedownloade songteksten</string>
-    <string name="delete_downloaded_lyrics_summary">Alleen songteksten gedownload door Booming Music. Heeft geen invloed op songteksten die zijn ingebed in ID3v2 tags of LRC bestanden.</string>
+    <string name="delete_downloaded_lyrics_summary">Alleen songteksten gedownload door Geet Music. Heeft geen invloed op songteksten die zijn ingebed in ID3v2 tags of LRC bestanden.</string>
     <string name="lyrics_cleared">Songteksten gewist.</string>
     <!-- Library preferences -->
     <string name="trash_music_title">Naar prullenbak verzenden</string>
@@ -733,7 +733,7 @@
     <string name="update_available_title">Update beschikbaar</string>
     <string name="more_info_action">Meer informatie.</string>
     <string name="download_action">downloaden</string>
-    <string name="downloading_update">Booming muziek update wordt gedownload.</string>
+    <string name="downloading_update">Geet muziek update wordt gedownload.</string>
     <string name="downloaded_update_name">Muziek %s blazen (Tik om te installeren)</string>
     <string name="uncaught_error_title">Er is een onverwachte fout opgetreden</string>
     <string name="uncaught_error_message">Sorry voor het ongemak. U kunt het foutenrapport bekijken en de app herstarten.</string>

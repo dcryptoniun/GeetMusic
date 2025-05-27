@@ -470,7 +470,7 @@ fun Slider.setTrackingTouchListener(
     })
 }
 
-inline fun Context.createBoomingMusicBalloon(
+inline fun Context.createGeetMusicBalloon(
     lifecycleOwner: LifecycleOwner,
     crossinline block: Balloon.Builder.() -> Unit
 ): Balloon {

@@ -24,7 +24,7 @@ import java.util.regex.Pattern
  * Created by hefuyi on 2016/11/8.
  */
 object LyricsUtil {
-    private val lrcRootPath = Environment.getExternalStorageDirectory().toString() + "/BoomingMusic/lyrics/"
+    private val lrcRootPath = Environment.getExternalStorageDirectory().toString() + "/GeetMusic/lyrics/"
 
     fun writeLrc(song: Song, lrcContext: String) {
         var writer: FileWriter? = null

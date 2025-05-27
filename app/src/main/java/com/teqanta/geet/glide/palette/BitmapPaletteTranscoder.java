@@ -24,7 +24,7 @@ import androidx.annotation.NonNull;
 import com.bumptech.glide.load.Options;
 import com.bumptech.glide.load.engine.Resource;
 import com.bumptech.glide.load.resource.transcode.ResourceTranscoder;
-import com.teqanta.geet.util.BoomingColorUtil;
+import com.teqanta.geet.util.GeetColorUtil;
 
 public class BitmapPaletteTranscoder implements ResourceTranscoder<Bitmap,  BitmapPaletteWrapper> {
 
@@ -32,7 +32,7 @@ public class BitmapPaletteTranscoder implements ResourceTranscoder<Bitmap,  Bitm
   public Resource<BitmapPaletteWrapper> transcode(@NonNull Resource<Bitmap> toTranscode, @NonNull Options options) {
     Bitmap bitmap = toTranscode.get();
     BitmapPaletteWrapper bitmapPaletteWrapper = new BitmapPaletteWrapper(bitmap,
-            BoomingColorUtil.generatePalette(bitmap));
+            GeetColorUtil.generatePalette(bitmap));
     return new BitmapPaletteResource(bitmapPaletteWrapper);
   }
 }

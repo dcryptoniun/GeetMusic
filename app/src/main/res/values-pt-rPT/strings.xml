@@ -126,7 +126,7 @@
     <string name="permission_exact_alarms_description">Permissão para agendar alarmes exatos é necessária para que o temporizador da suspensão funcione corretamente</string>
     <string name="permission_ringtone_title">Toque (opcional)</string>
     <string name="permission_ringtone_description">O aplicativo precisa de permissão para acessar as configurações do seu dispositivo para definir músicas como Ringtone</string>
-    <string name="permission_request_write_settings"><![CDATA[Você deve permitir que o Booming Music modifique as configurações do sistema para definir <b>%s</b> como seu toque]]></string>
+    <string name="permission_request_write_settings"><![CDATA[Você deve permitir que o Geet Music modifique as configurações do sistema para definir <b>%s</b> como seu toque]]></string>
     <string name="permissions_denied">Permissão negada</string>
     <string name="permissions_needed">Permissões necessárias</string>
     <string name="grant_access_action">Conceder acesso</string>
@@ -491,13 +491,13 @@
     <string name="write_an_email">Escreva um e-mail</string>
     <string name="support_development">Apoie o desenvolvimento</string>
     <string name="help_with_translations">Ajuda com traduções</string>
-    <string name="help_with_translations_summary">Você pode contribuir para o projeto, ajudando a traduzir Booming Music para outras línguas.</string>
+    <string name="help_with_translations_summary">Você pode contribuir para o projeto, ajudando a traduzir Geet Music para outras línguas.</string>
     <string name="report_bugs">Relatar erros</string>
     <string name="report_bugs_summary">Reporte erros ou solicite novas funcionalidades.</string>
     <string name="share_app">Compartilhar este aplicativo</string>
     <string name="share_app_summary">Você pode ajudar este aplicativo a crescer se você compartilhá-lo com os amigos.</string>
     <string name="send_invitation_message">Enviar mensagem de convite</string>
-    <string name="invitation_message_content">Oi. Confira o Booming Music! O melhor aplicativo para ouvir música local no Android. Você pode baixá-lo aqui: %s</string>
+    <string name="invitation_message_content">Oi. Confira o Geet Music! O melhor aplicativo para ouvir música local no Android. Você pode baixá-lo aqui: %s</string>
     <!-- Bug report -->
     <string name="report_an_issue">Reportar um problema</string>
     <string name="device_info">Informações do dispositivo</string>
@@ -505,7 +505,7 @@
     <string name="you_will_be_forwarded_to_the_issue_tracker_website">Você será encaminhado para o site de registro de erros.</string>
     <!-- SAF -->
     <string name="saf_access_required_title">Acesso ao armazenamento necessário</string>
-    <string name="saf_access_required_message">Boomings requer permissão para acessar esses arquivos. Por favor, escolha o diretório raiz do cartão SD.</string>
+    <string name="saf_access_required_message">Geets requer permissão para acessar esses arquivos. Por favor, escolha o diretório raiz do cartão SD.</string>
     <string name="saf_show_files_button">Mostrar arquivos</string>
     <string name="saf_error_uri">Não é possível obter URI SAF</string>
     <string name="saf_write_failed">Falha ao escrever arquivo: %s</string>
@@ -528,7 +528,7 @@
     <string name="update_title">Atualização</string>
     <string name="update_summary">Configurações para atualizações do app.</string>
     <string name="about_title">SOBRE</string>
-    <string name="about_summary">Booming Music %s, toque para obter mais informações.</string>
+    <string name="about_summary">Geet Music %s, toque para obter mais informações.</string>
     <!-- Preference headers -->
     <string name="general_header">Gerais</string>
     <string name="library_header">Biblioteca</string>
@@ -733,8 +733,8 @@
     <string name="update_available_title">Atualização disponível</string>
     <string name="more_info_action">Mais informações.</string>
     <string name="download_action">BAIXAR</string>
-    <string name="downloading_update">Baixando atualização do Booming.</string>
-    <string name="downloaded_update_name">Booming Music %s (Toque para instalar)</string>
+    <string name="downloading_update">Baixando atualização do Geet.</string>
+    <string name="downloaded_update_name">Geet Music %s (Toque para instalar)</string>
     <string name="uncaught_error_title">Ocorreu um erro inesperado</string>
     <string name="uncaught_error_message">Lamentamos o inconveniente. Você pode rever o relatório de erros e reiniciar o aplicativo.</string>
     <string name="uncaught_error_restart_app">Reiniciar aplicativo</string>

@@ -390,7 +390,7 @@
     <string name="reset_equalizer">Reset equalizer</string>
     <string name="select_configurations_to_export">选择要导出的配置：</string>
     <string name="select_a_file_to_save_exported_configurations">选择一个文件以保存导出的配置。</string>
-    <string name="select_a_file_containing_booming_eq_presets">选择一个包含 Booming 音乐预设的文件。</string>
+    <string name="select_a_file_containing_booming_eq_presets">选择一个包含 Geet 音乐预设的文件。</string>
     <string name="select_configurations_to_import">选择要导入的配置：</string>
     <string name="are_you_sure_you_want_to_reset_the_equalizer">您确定要重置均衡器吗？
         \n\n这将清除您所有的预设。</string>
@@ -620,7 +620,7 @@
     <string name="online_artist_images_summary">这取决于您的元数据下载政策。</string>
     <string name="preferred_artist_image_size_title">首选图像大小</string>
     <string name="delete_downloaded_lyrics_title">删除下载的歌词</string>
-    <string name="delete_downloaded_lyrics_summary">只有由 Booming Music 下载的歌词。不影响嵌入到 ID3v2 标签或 LRC 文件中的歌词。</string>
+    <string name="delete_downloaded_lyrics_summary">只有由 Geet Music 下载的歌词。不影响嵌入到 ID3v2 标签或 LRC 文件中的歌词。</string>
     <string name="lyrics_cleared">歌词已清除。</string>
     <!-- Library preferences -->
     <string name="trash_music_title">发送到回收站</string>
@@ -726,7 +726,7 @@
     <string name="update_available_title">可用更新</string>
     <string name="more_info_action">更多信息。</string>
     <string name="download_action">下载</string>
-    <string name="downloading_update">正在下载 Booming 音乐更新。</string>
+    <string name="downloading_update">正在下载 Geet 音乐更新。</string>
     <string name="downloaded_update_name">正在启动音乐 %s (点击安装)</string>
     <string name="uncaught_error_title">发生意外错误</string>
     <string name="uncaught_error_message">抱歉给您带来了不便。您可以查看错误报告并重启应用程序。</string>

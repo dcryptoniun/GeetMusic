@@ -32,7 +32,7 @@ import androidx.room.RoomDatabase
     version = 1,
     exportSchema = false
 )
-abstract class BoomingDatabase : RoomDatabase() {
+abstract class GeetDatabase : RoomDatabase() {
     abstract fun playlistDao(): PlaylistDao
     abstract fun playCountDao(): PlayCountDao
     abstract fun historyDao(): HistoryDao

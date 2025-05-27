@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="Theme.Booming" parent="Base.Theme.Booming"/>
+    <style name="Theme.Geet" parent="Base.Theme.Geet"/>
 
-    <style name="Theme.Booming.Light" parent="Base.Theme.Booming.Light"/>
+    <style name="Theme.Geet.Light" parent="Base.Theme.Geet.Light"/>
 
-    <style name="Theme.Booming.Black" parent="Base.Theme.Booming.Black"/>
+    <style name="Theme.Geet.Black" parent="Base.Theme.Geet.Black"/>
 
-    <style name="Theme.Booming.FollowSystem" parent="Base.Theme.Booming.Adaptive"/>
+    <style name="Theme.Geet.FollowSystem" parent="Base.Theme.Geet.Adaptive"/>
 
-    <style name="Theme.Booming.DynamicColors" parent="@style/Theme.Material3.DayNight.NoActionBar">
+    <style name="Theme.Geet.DynamicColors" parent="@style/Theme.Material3.DayNight.NoActionBar">
         <item name="roundSelector">@drawable/round_selector</item>
         <item name="rectSelector">@drawable/rect_selector</item>
         <item name="materialCardViewStyle">@style/Widget.Material3.CardView.Elevated</item>
         <item name="materialButtonStyle">@style/MaterialButtonStyle</item>
     </style>
 
-    <style name="Theme.Booming.SplashScreen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.Geet.SplashScreen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="android:windowBackground">@drawable/splash</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
@@ -119,10 +119,10 @@
     </style>
 
     <!-- TEXT APPEARANCE -->
-    <style name="TextAppearance.Booming.Notification.Title"
+    <style name="TextAppearance.Geet.Notification.Title"
            parent="@android:style/TextAppearance.Material.Notification.Title"/>
 
-    <style name="TextAppearance.Booming.Notification.Line2"
+    <style name="TextAppearance.Geet.Notification.Line2"
            parent="@android:style/TextAppearance.Material.Notification.Line2"/>
 
     <style name="CircularShapeAppearance" parent="">

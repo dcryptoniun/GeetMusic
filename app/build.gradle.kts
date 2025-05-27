@@ -156,7 +156,7 @@ android {
     applicationVariants.all {
         outputs.all {
             (this as com.android.build.gradle.internal.api.BaseVariantOutputImpl).outputFileName =
-                "BoomingMusic-${defaultConfig.versionName}-${name}.apk"
+                "GeetMusic-${defaultConfig.versionName}-${name}.apk"
         }
     }
 }
