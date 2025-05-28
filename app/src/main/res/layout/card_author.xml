@@ -55,39 +55,9 @@
                     android:maxLines="2"
                     android:ellipsize="end"
                     android:textAppearance="?textAppearanceBody2"
-                    android:textColor="?android:textColorSecondary"
-                    android:text="@string/mardous_summary"/>
+                    android:textColor="?android:textColorSecondary"                    android:text="@string/mardous_summary"/>
 
             </LinearLayout>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/telegram"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_vertical"
-            android:background="?rectSelector"
-            android:minHeight="?listPreferredItemHeightSmall"
-            android:paddingStart="24dp"
-            android:paddingEnd="24dp">
-
-            <ImageView
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:scaleType="center"
-                app:tint="?android:textColorPrimary"
-                app:srcCompat="@drawable/ic_telegram_24dp"
-                tools:ignore="ContentDescription"/>
-
-            <com.google.android.material.textview.MaterialTextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="24dp"
-                android:ellipsize="end"
-                android:textAppearance="?textAppearanceBody1"
-                android:text="@string/follow_on_telegram"
-                tools:ignore="RtlSymmetry"/>
 
         </LinearLayout>
 
@@ -116,35 +86,6 @@
                 android:ellipsize="end"
                 android:textAppearance="?textAppearanceBody1"
                 android:text="@string/view_profile_on_github"
-                tools:ignore="RtlSymmetry"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/email"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_vertical"
-            android:background="?rectSelector"
-            android:minHeight="?listPreferredItemHeightSmall"
-            android:paddingStart="24dp"
-            android:paddingEnd="24dp">
-
-            <ImageView
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:scaleType="center"
-                app:srcCompat="@drawable/ic_email_24dp"
-                app:tint="?android:textColorPrimary"
-                tools:ignore="ContentDescription"/>
-
-            <com.google.android.material.textview.MaterialTextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="24dp"
-                android:ellipsize="end"
-                android:textAppearance="?textAppearanceBody1"
-                android:text="@string/write_an_email"
                 tools:ignore="RtlSymmetry"/>
 
         </LinearLayout>

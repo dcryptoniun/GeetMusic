@@ -2,7 +2,7 @@
 
 ## About the issue tracker
 
-First, I clarify that the [Issue Tracker](https://github.com/mardous/GeetMusic/issues) is the preferred channel for bug reports and feature requests. I do this in order to keep everything centralized in one place, therefore, do not contact me by email for this purpose.
+First, I clarify that the [Issue Tracker](https://github.com/dcryptoniun/GeetMusic/issues) is the preferred channel for bug reports and feature requests. I do this in order to keep everything centralized in one place, therefore, do not contact me by email for this purpose.
 
 Secondly, everyone is welcome to the discussion as long as the following guidelines are met:
 

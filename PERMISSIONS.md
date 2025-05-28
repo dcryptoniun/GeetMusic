@@ -18,4 +18,4 @@ Geet Music requests the following permissions:
 | **MODIFY_AUDIO_SETTINGS**  | Required to apply audio effects and control volume from within the app.                     | All             |
 | **WAKE_LOCK**              | Prevents the device from sleeping during playback.                                          | All             |
 
-If you still have questions about the permissions requested by the app, or if we have missed placing any on this list, feel free to contact us through this email: mardous.contact@gmail.com
+If you still have questions about the permissions requested by the app, or if we have missed placing any on this list, feel free to contact us through this email: mayank.meena.contact@gmail.com

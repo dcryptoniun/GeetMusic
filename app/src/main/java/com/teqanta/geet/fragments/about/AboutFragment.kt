@@ -61,19 +61,14 @@ class AboutFragment : Fragment(R.layout.fragment_about), View.OnClickListener {
 
     private fun setupVersion() {
         binding.cardApp.version.text = BuildConfig.VERSION_NAME
-    }
-
-    private fun setupListeners() {
+    }    private fun setupListeners() {
         binding.cardApp.changelog.setOnClickListener(this)
         binding.cardApp.forkOnGithub.setOnClickListener(this)
         binding.cardApp.licenses.setOnClickListener(this)
 
-        binding.cardAuthor.telegram.setOnClickListener(this)
         binding.cardAuthor.github.setOnClickListener(this)
-        binding.cardAuthor.email.setOnClickListener(this)
 
         binding.cardSupport.translateApp.setOnClickListener(this)
-        binding.cardSupport.telegram.setOnClickListener(this)
         binding.cardSupport.reportBugs.setOnClickListener(this)
         binding.cardSupport.shareApp.setOnClickListener(this)
     }
@@ -89,35 +84,16 @@ class AboutFragment : Fragment(R.layout.fragment_about), View.OnClickListener {
                     .setTitle(getString(R.string.licenses))
                     .setContentFromAsset(requireContext(), "LICENSES.md")
                     .show(childFragmentManager, "LICENSES")
-            }
-
-            binding.cardApp.forkOnGithub -> {
+            }            binding.cardApp.forkOnGithub -> {
                 openUrl(GITHUB_URL)
-            }
-
-            binding.cardAuthor.telegram -> {
-                openUrl(AUTHOR_TELEGRAM_LINK)
             }
 
             binding.cardAuthor.github -> {
                 openUrl(AUTHOR_GITHUB_URL)
             }
 
-            binding.cardAuthor.email -> {
-                val emailIntent = Intent(Intent.ACTION_SENDTO).apply {
-                    data = "mailto:".toUri()
-                    putExtra(Intent.EXTRA_EMAIL, arrayOf("teqanta.contact@gmail.com"))
-                    putExtra(Intent.EXTRA_SUBJECT, "${getString(R.string.app_name)} - Support & questions")
-                }
-                startActivity(Intent.createChooser(emailIntent, getString(R.string.write_an_email)))
-            }
-
             binding.cardSupport.translateApp -> {
                 openUrl(CROWDIN_PROJECT_LINK)
-            }
-
-            binding.cardSupport.telegram -> {
-                openUrl(APP_TELEGRAM_LINK)
             }
 
             binding.cardSupport.reportBugs -> {
@@ -160,15 +136,11 @@ class AboutFragment : Fragment(R.layout.fragment_about), View.OnClickListener {
             clipboard.setPrimaryClip(clip)
         }
         showToast(R.string.copied_device_info_to_clipboard, Toast.LENGTH_LONG)
-    }
-
-    companion object {
-        private const val AUTHOR_GITHUB_URL = "https://www.github.com/mardous"
-        private const val GITHUB_URL = "$AUTHOR_GITHUB_URL/GeetMusic"
+    }    companion object {
+        private const val AUTHOR_GITHUB_URL = "https://github.com/dcryptoniun"
+        private const val GITHUB_URL = "https://github.com/dcryptoniun/GeetMusic"
         private const val RELEASES_LINK = "$GITHUB_URL/releases"
         private const val ISSUE_TRACKER_LINK = "$GITHUB_URL/issues"
-        private const val AUTHOR_TELEGRAM_LINK = "https://t.me/mardeez"
-        private const val APP_TELEGRAM_LINK = "https://t.me/mardousdev"
         private const val CROWDIN_PROJECT_LINK = "https://crowdin.com/project/booming-music"
     }
 }

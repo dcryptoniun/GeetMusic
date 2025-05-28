@@ -8,20 +8,20 @@
 
 [![Platform](https://img.shields.io/badge/Platform-Android-green.svg?logo=android)](https://android.com/)
 [![API](https://img.shields.io/badge/API-26%2B-green.svg?style=flat&logo=android)](https://android-arsenal.com/api?level=26)
-[![Latest Release](https://img.shields.io/github/v/release/mardous/GeetMusic?label=Release&logo=github)](https://github.com/mardous/GeetMusic/releases/latest)
-[![Pre-Release](https://img.shields.io/github/v/release/mardous/GeetMusic?include_prereleases&logo=github&label=Pre-release)](https://github.com/mardous/GeetMusic/releases)
+[![Latest Release](https://img.shields.io/github/v/release/dcryptoniun/GeetMusic?label=Release&logo=github)](https://github.com/dcryptoniun/GeetMusic/releases/latest)
+[![Pre-Release](https://img.shields.io/github/v/release/dcryptoniun/GeetMusic?include_prereleases&logo=github&label=Pre-release)](https://github.com/dcryptoniun/GeetMusic/releases)
 [![F-Droid version](https://img.shields.io/f-droid/v/teqanta.booming?label=F-Droid&logo=fdroid)](https://f-droid.org/packages/teqanta.booming/)
-[![License: GPL v3](https://img.shields.io/github/license/mardous/GeetMusic?color=orange&label=License&logo=gnu)](LICENSE.txt)
+[![License: GPL v3](https://img.shields.io/github/license/dcryptoniun/GeetMusic?color=orange&label=License&logo=gnu)](LICENSE.txt)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor_Covenant-2.1-4baaaa.svg?logo=contributorcovenant)](CODE_OF_CONDUCT.md)
 [![Crowdin](https://badges.crowdin.net/booming-music/localized.svg)](https://crowdin.com/project/booming-music)
-[![Telegram Group](https://img.shields.io/badge/Telegram-Join_Chat-blue?style=flat&logo=telegram)](https://t.me/mardousdev)
+[![Telegram Group](https://img.shields.io/badge/Telegram-Join_Chat-blue?style=flat&logo=telegram)](https://t.me/dcryptoniun)
 
-<a href="https://github.com/mardous/GeetMusic/releases"><img src="assets/badge-github.png" height="60"></a>
+<a href="https://github.com/dcryptoniun/GeetMusic/releases"><img src="assets/badge-github.png" height="60"></a>
 <a href="https://f-droid.org/packages/teqanta.booming/"><img src="assets/badge-fdroid.png" height="60"></a>
 <a href="https://apt.izzysoft.de/packages/teqanta.booming/"><img src="assets/badge-izzyondroid.png" height="60"></a>
 <a href="https://www.openapk.net/boomingmusic/teqanta.booming/"><img src="assets/badge-openapk.png" height="60"></a>
 <a href="https://www.androidfreeware.net/download-boomingmusic-apk.html"><img src="assets/badge-androidfreeware.png" height="60"></a>
-<a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/mardous/GeetMusic/"><img src="assets/badge-obtainium.png" height="60"></a>
+<a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/dcryptoniun/GeetMusic/"><img src="assets/badge-obtainium.png" height="60"></a>
 
 </div>
 
@@ -98,7 +98,7 @@ is appreciated!
 
 ## 💬 Social
 
-Join the [Telegram chat](https://t.me/mardousdev) to stay up-to-date on new releases, discuss new features,
+Join the [Telegram chat](https://t.me/dcryptoniun) to stay up-to-date on new releases, discuss new features,
 report bugs, and engage with other community users.
 
 ## 👏 Credits
