@@ -125,6 +125,22 @@
     <style name="TextAppearance.Geet.Notification.Line2"
            parent="@android:style/TextAppearance.Material.Notification.Line2"/>
 
+    <!-- Custom text appearances that inherit font from theme -->
+    <style name="TextAppearance.Geet.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">?attr/fontFamily</item>
+        <item name="android:fontFamily">?attr/fontFamily</item>
+    </style>
+
+    <style name="TextAppearance.Geet.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="fontFamily">?attr/fontFamily</item>
+        <item name="android:fontFamily">?attr/fontFamily</item>
+    </style>
+
+    <style name="TextAppearance.Geet.Headline6" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="fontFamily">?attr/fontFamily</item>
+        <item name="android:fontFamily">?attr/fontFamily</item>
+    </style>
+
     <style name="CircularShapeAppearance" parent="">
         <item name="cornerSize">50%</item>
         <item name="cornerFamily">rounded</item>

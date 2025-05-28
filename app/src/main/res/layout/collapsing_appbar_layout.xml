@@ -6,9 +6,8 @@
     android:id="@+id/collapsingToolbarLayout"
     style="?attr/collapsingToolbarLayoutMediumStyle"
     android:layout_width="match_parent"
-    android:layout_height="?attr/collapsingToolbarLayoutMediumSize"
-    app:collapsedTitleTextAppearance="?textAppearanceTitleLarge"
-    app:expandedTitleTextAppearance="?textAppearanceHeadlineLarge"
+    android:layout_height="?attr/collapsingToolbarLayoutMediumSize"    app:collapsedTitleTextAppearance="@style/TextAppearance.Geet.TitleLarge"
+    app:expandedTitleTextAppearance="@style/TextAppearance.Geet.HeadlineLarge"
     app:expandedTitleMarginStart="24dp"
     app:titleCollapseMode="scale"
     app:layout_scrollFlags="scroll|exitUntilCollapsed|snap|enterAlwaysCollapsed">
@@ -19,7 +18,7 @@
         android:layout_height="?actionBarSize"
         app:layout_collapseMode="pin"
         app:navigationIcon="@drawable/ic_search_24dp"
-        app:titleTextAppearance="?textAppearanceHeadline6"
+        app:titleTextAppearance="@style/TextAppearance.Geet.Headline6"
         tools:title="@string/songs_label"/>
 
 </com.google.android.material.appbar.CollapsingToolbarLayout>

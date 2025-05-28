@@ -541,7 +541,7 @@
     <string name="general_theme_title">一般主题</string>
     <string name="pure_black_theme_title">纯黑色</string>
     <string name="material_you_title">您的材料</string>
-    <string name="use_custom_font_title">使用 Manrope 字体</string>
+    <string name="use_custom_font_title">使用 Pixel 字体</string>
     <string name="appbar_mode_title">标题样式</string>
     <string name="library_categories_title">库类别</string>
     <string name="library_categories_summary">配置库分类的可见性和顺序。</string>

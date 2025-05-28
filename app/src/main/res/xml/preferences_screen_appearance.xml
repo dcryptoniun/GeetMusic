@@ -15,12 +15,10 @@
         app:title="@string/material_you_title"
         app:defaultValue="@bool/md3_supported"
         app:layout="@layout/list_item_view_switch_no_title"
-        app:key="material_you"/>
-
-    <SwitchPreferenceCompat
+        app:key="material_you"/>    <SwitchPreferenceCompat
         app:iconSpaceReserved="true"
         app:title="@string/pure_black_theme_title"
-        app:defaultValue="false"
+        app:defaultValue="true"
         app:layout="@layout/list_item_view_switch_no_title"
         app:key="black_theme"/>
 

@@ -62,10 +62,8 @@ object Preferences : KoinComponent {
         } else {
             preferences.requireString(GENERAL_THEME, GeneralTheme.AUTO)
         }
-    }
-
-    var generalTheme: String
-        get() = getGeneralTheme(preferences.getBoolean(BLACK_THEME, false))
+    }    var generalTheme: String
+        get() = getGeneralTheme(preferences.getBoolean(BLACK_THEME, true))
         set(value) = preferences.edit { putString(GENERAL_THEME, value) }
 
     fun getThemeMode(themeName: String) = when (themeName) {

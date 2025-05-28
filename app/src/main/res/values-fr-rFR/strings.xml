@@ -548,7 +548,7 @@
     <string name="general_theme_title">Thème général</string>
     <string name="pure_black_theme_title">Noir pur</string>
     <string name="material_you_title">Matériel Vous</string>
-    <string name="use_custom_font_title">Utiliser la police Manrope</string>
+    <string name="use_custom_font_title">Utiliser la police Pixel</string>
     <string name="appbar_mode_title">Style de l\'en-tête</string>
     <string name="library_categories_title">Catégories de la bibliothèque</string>
     <string name="library_categories_summary">Configurer la visibilité et l\'ordre des catégories de la bibliothèque.</string>
