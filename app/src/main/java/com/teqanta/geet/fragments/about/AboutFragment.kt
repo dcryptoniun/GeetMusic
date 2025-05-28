@@ -44,71 +44,42 @@ class AboutFragment : Fragment(R.layout.fragment_about), View.OnClickListener {
     private val binding get() = _binding!!
 
     private lateinit var deviceInfo: DeviceInfo
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         deviceInfo = DeviceInfo(requireActivity())
         _binding = FragmentAboutBinding.bind(view)
         view.applyBottomWindowInsets()
         setupVersion()
+        hideUnnecessaryButtons()
         setupListeners()
-    }
-
-    override fun onDestroyView() {
+    }    override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
     }
 
     private fun setupVersion() {
         binding.cardApp.version.text = BuildConfig.VERSION_NAME
+    }
+
+    private fun hideUnnecessaryButtons() {
+        // Hide buttons from card_app
+        binding.cardApp.changelog.visibility = View.GONE
+        binding.cardApp.forkOnGithub.visibility = View.GONE
+        binding.cardApp.licenses.visibility = View.GONE
+        
+        // Hide buttons from card_support
+        binding.cardSupport.reportBugs.visibility = View.GONE
+        binding.cardSupport.translateApp.visibility = View.GONE
     }    private fun setupListeners() {
-        binding.cardApp.changelog.setOnClickListener(this)
-        binding.cardApp.forkOnGithub.setOnClickListener(this)
-        binding.cardApp.licenses.setOnClickListener(this)
-
+        // Only setup listeners for visible buttons
         binding.cardAuthor.github.setOnClickListener(this)
-
-        binding.cardSupport.translateApp.setOnClickListener(this)
-        binding.cardSupport.reportBugs.setOnClickListener(this)
         binding.cardSupport.shareApp.setOnClickListener(this)
     }
 
     override fun onClick(view: View?) {
         when (view) {
-            binding.cardApp.changelog -> {
-                openUrl(RELEASES_LINK)
-            }
-
-            binding.cardApp.licenses -> {
-                MarkdownDialog()
-                    .setTitle(getString(R.string.licenses))
-                    .setContentFromAsset(requireContext(), "LICENSES.md")
-                    .show(childFragmentManager, "LICENSES")
-            }            binding.cardApp.forkOnGithub -> {
-                openUrl(GITHUB_URL)
-            }
-
             binding.cardAuthor.github -> {
                 openUrl(AUTHOR_GITHUB_URL)
-            }
-
-            binding.cardSupport.translateApp -> {
-                openUrl(CROWDIN_PROJECT_LINK)
-            }
-
-            binding.cardSupport.reportBugs -> {
-                MaterialAlertDialogBuilder(requireContext())
-                    .setTitle(R.string.report_an_issue)
-                    .setMessage(R.string.you_will_be_forwarded_to_the_issue_tracker_website)
-                    .setPositiveButton(R.string.continue_action) { _: DialogInterface, _: Int ->
-                        try {
-                            startActivity(ISSUE_TRACKER_LINK.openWeb())
-                            copyDeviceInfoToClipBoard()
-                        } catch (ignored: ActivityNotFoundException) {
-                        }
-                    }
-                    .setNegativeButton(android.R.string.cancel, null)
-                    .show()
             }
 
             binding.cardSupport.shareApp -> {
@@ -127,16 +98,16 @@ class AboutFragment : Fragment(R.layout.fragment_about), View.OnClickListener {
 
     private fun openUrl(url: String) {
         startActivity(url.openWeb())
-    }
-
-    private fun copyDeviceInfoToClipBoard() {
+    }    private fun copyDeviceInfoToClipBoard() {
         val clipboard = requireContext().getSystemService<ClipboardManager>()
         if (clipboard != null) {
             val clip = ClipData.newPlainText(getString(R.string.device_info), deviceInfo.toMarkdown())
             clipboard.setPrimaryClip(clip)
         }
         showToast(R.string.copied_device_info_to_clipboard, Toast.LENGTH_LONG)
-    }    companion object {
+    }
+
+    companion object {
         private const val AUTHOR_GITHUB_URL = "https://github.com/dcryptoniun"
         private const val GITHUB_URL = "https://github.com/dcryptoniun/GeetMusic"
         private const val RELEASES_LINK = "$GITHUB_URL/releases"
