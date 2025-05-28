@@ -97,6 +97,7 @@ It is also important to mention:
 - [LRCLib](https://lrclib.net/)
 - [spotify-lyrics-api](https://github.com/akashrchandran/spotify-lyrics-api) by [Akash R Chandran](https://github.com/akashrchandran)
 - [Alex](https://github.com/Paxsenix0)
+- [Nothing Font 5x7](https://fontstruct.com/fontstructions/show/1766618/nothing-font-5x7) from FontStruct
 
 ## ⚖️ License
 
