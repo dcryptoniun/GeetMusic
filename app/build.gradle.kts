@@ -2,6 +2,9 @@ import java.util.Properties
 
 val isNormalBuild: Boolean by rootProject.extra
 
+var VERSION_CODE = 1
+var VERSION_NAME = "1.0.0"
+
 plugins {
     alias(libs.plugins.agp)
     alias(libs.plugins.kotlin.android)
@@ -16,84 +19,15 @@ if (isNormalBuild) {
     apply(plugin = "com.google.firebase.crashlytics")
 }
 
-sealed class Version(
-    private val versionOffset: Long,
-    private val versionMajor: Int,
-    private val versionMinor: Int,
-    private val versionPatch: Int,
-    private val versionBuild: Int = 0,
-    private val versionType: String = ""
-) {
-    companion object {
-        private const val MAJOR = 1_000_000L
-        private const val MINOR = 100_000L
-        private const val PATCH = 10_000L
-        private const val VARIANT = 100L
-
-        private const val ALPHA = 0L
-        private const val BETA = 1L
-        private const val RELEASE_CANDIDATE = 2L
-        private const val STABLE = 3L
-    }
-
-    init {
-        require(versionMajor >= 0 && versionMinor >= 0 && versionPatch >= 0 && versionBuild >= 0) {
-            "Version numbers must be non-negative"
-        }
-    }
-
-    class Alpha(versionMajor: Int, versionMinor: Int, versionPatch: Int, versionBuild: Int) :
-        Version(ALPHA, versionMajor, versionMinor, versionPatch, versionBuild, "alpha")
-
-    class Beta(versionMajor: Int, versionMinor: Int, versionPatch: Int, versionBuild: Int) :
-        Version(BETA, versionMajor, versionMinor, versionPatch, versionBuild, "beta")
-
-    class RC(versionMajor: Int, versionMinor: Int, versionPatch: Int, versionBuild: Int) :
-        Version(RELEASE_CANDIDATE, versionMajor, versionMinor, versionPatch, versionBuild, "rc")
-
-    class Stable(versionMajor: Int, versionMinor: Int, versionPatch: Int) :
-        Version(STABLE, versionMajor, versionMinor, versionPatch)
-
-    val name: String
-        get() {
-            val versionName = "${versionMajor}.${versionMinor}.${versionPatch}"
-            return if (versionType.isNotEmpty()) "$versionName-${versionType}.$versionBuild" else versionName
-        }
-
-    val code: Int
-        get() {
-            val versionCode = versionMajor * MAJOR +
-                    versionMinor * MINOR +
-                    versionPatch * PATCH +
-                    versionOffset * VARIANT +
-                    versionBuild
-            require(versionCode <= Int.MAX_VALUE) {
-                "Version code exceeds Int.MAX_VALUE"
-            }
-            return versionCode.toInt()
-        }
-}
-
-val currentVersion: Version = Version.Beta(
-    versionMajor = 1,
-    versionMinor = 1,
-    versionPatch = 0,
-    versionBuild = 1
-)
-val currentVersionCode = currentVersion.code
-
 android {
     compileSdk = 36
     namespace = "com.teqanta.geet"
-
     defaultConfig {
         minSdk = 26
         targetSdk = 35
-
         applicationId = namespace
-        versionCode = 1100101
-        versionName = currentVersion.name
-        check(versionCode == currentVersionCode)
+        versionCode = VERSION_CODE
+        versionName = VERSION_NAME
     }
 
     flavorDimensions += "version"
