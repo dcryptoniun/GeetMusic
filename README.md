@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="metadata/en-US/images/icon.png"  width=160 height=160  align="center">
+<img src="metadata/en-US/images/new_icon.png"  width=160 height=160  align="center">
 
 # Geet Music
 
